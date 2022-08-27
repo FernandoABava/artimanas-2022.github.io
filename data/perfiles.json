@@ -1,0 +1,79 @@
+{"perfiles" : [
+		{
+			"id":"emmet",
+			"nombre":"Emmet",
+			"descripcion":"No sé, pero funciona",
+			"titulo_tesina":"Investigación sobre un coso multimedial",
+			"titulo_obra":"Un coso multimedial",
+			"tags":[
+				"Multimedia", "Coso", "Arte"
+			],
+			"foto_perfil":"./data/imgs/Emmet/perfil.jpg",
+			"fotos_obra":[
+				{
+					"alt":"string",
+					"src":"string (data/imgs/nombre/....png)"
+				}
+			],
+			"video":"string (data/videos/nombre/....mp4)",
+			"pdf":"string (data/pdfs/nombre/....pdf)"
+		},
+		{
+			"id":"emmet1",
+			"nombre":"Emmet - 1",
+			"descripcion":"No sé, pero funciona",
+			"titulo_tesina":"Investigación sobre un coso multimedial",
+			"titulo_obra":"Un coso multimedial",
+			"tags":[
+				"Multimedia", "Coso", "Arte"
+			],
+			"foto_perfil":"./data/imgs/Emmet/perfil.jpg",
+			"fotos_obra":[
+				{
+					"alt":"string",
+					"src":"string (data/imgs/nombre/....png)"
+				}
+			],
+			"video":"string (data/videos/nombre/....mp4)",
+			"pdf":"string (data/pdfs/nombre/....pdf)"
+		},
+		{
+			"id":"emmet2",
+			"nombre":"Emmet - 2",
+			"descripcion":"No sé, pero funciona",
+			"titulo_tesina":"Investigación sobre un coso multimedial",
+			"titulo_obra":"Un coso multimedial",
+			"tags":[
+				"Multimedia", "Coso", "Arte"
+			],
+			"foto_perfil":"./data/imgs/Emmet/perfil.jpg",
+			"fotos_obra":[
+				{
+					"alt":"string",
+					"src":"string (data/imgs/nombre/....png)"
+				}
+			],
+			"video":"string (data/videos/nombre/....mp4)",
+			"pdf":"string (data/pdfs/nombre/....pdf)"
+		},
+		{
+			"id":"emmet3",
+			"nombre":"Emmet - 3",
+			"descripcion":"No sé, pero funciona",
+			"titulo_tesina":"Investigación sobre un coso multimedial",
+			"titulo_obra":"Un coso multimedial",
+			"tags":[
+				"Multimedia", "Coso", "Arte"
+			],
+			"foto_perfil":"./data/imgs/Emmet/perfil.jpg",
+			"fotos_obra":[
+				{
+					"alt":"string",
+					"src":"string (data/imgs/nombre/....png)"
+				}
+			],
+			"video":"string (data/videos/nombre/....mp4)",
+			"pdf":"string (data/pdfs/nombre/....pdf)"
+		}
+	]
+}

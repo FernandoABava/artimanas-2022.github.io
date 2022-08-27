@@ -1,13 +1,22 @@
-import fetchTemplate from './fetchTemplate.js'
-// Esto debería funcionar :(
-// import * as headerHtml from '../componentes/header.html'
-// import * as footerHtml from '../componentes/footer.html'
+import insertHeaderAndFooter from './insertHeaderAndFooter.js'
+import {fetchProfileList} from './fetchProfile.js'
 
-let headerHtml = await fetchTemplate('../componentes/header.html')
-let footerHtml = await fetchTemplate('../componentes/footer.html')
+const urlPerfiles = 'perfil.html'
 
 console.log("ARTIMAÑAS :D")
-window.onload = async (event)=>{
-	document.body.insertAdjacentHTML('beforebegin', headerHtml)
-	document.body.insertAdjacentHTML('afterend', footerHtml)
+init();
+
+async function init(event) {
+	insertHeaderAndFooter();
+
+	const profileList = await fetchProfileList();
+	const listEl = document.getElementById('lista-perfiles')
+	profileList.forEach((perfil, i) => {
+		const li = document.createElement('li')
+		const a = document.createElement('a')
+		a.href = urlPerfiles + `?p=${perfil.id}`
+		a.innerText = perfil.nombre
+		li.append(a)
+		listEl.append(li)
+	});
 }
