@@ -139,3 +139,26 @@ img {
 	text-align: center;
 	cursor: pointer;
 }
+
+/*********************
+**		MIXTOS		**
+**********************/
+
+.sin-bullet
+{
+    list-style-type:none;
+}
+
+.bi 
+{
+	color: white;
+	font-size: 1.2em;
+}
+
+.titular {
+
+	font-size: 6.5rem;
+	
+	-webkit-text-stroke: 1px #F0F0F0;
+	color: #0000;
+}
