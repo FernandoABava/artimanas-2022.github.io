@@ -1,38 +1,83 @@
 <!DOCTYPE html>
 <html lang="es-ar">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>artimañas</title>
-    <style> body {padding: 0; margin: 0;} </style>
 
-    <!-- FONT
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Obras 2022</title>
+        <!-- Bootstrap css -->
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <!-- FONT  -->
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-    <!-- CSS
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/style.css">
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- JS
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <!-- <script type="module" src="js/app.js"></script> -->
 
-    <!-- JS
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <script type="module" src="./js/perfil_app.js"></script>
+    </head>
 
-  </head>
-  <body id="body">
+    <body id="tema-claro">
 
-	<div class="container">
-	  <div class="row" style="margin-top: 5%">
-	    <h1 id="nombre"></h1>
-		<img id="perfil-img" src="" alt="">
-		<p id="resumen"></p>
-		<br>
-		<span>Tesis: </span>
-		<h3 id="titulo-tesina"></h3>
-		<span>Obra: </span>
-		<h3 id="titulo-obra"></h3>
-	  </div>
-	</div>
+        <div class="container">
+            <nav class="navbar navbar-light justify-content-between">
+                <h1><a class="logo-negro" href="/index.html">a</a></h1>
+                <form class="form-inline">
+                 <!--  <input class="form-control mr-sm-2" type="search" placeholder="buscar" aria-label="Buscar"> -->
+                  <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">a</button> -->
+                </form>
+              </nav>
+        </div>
 
-  </body>
+        <main>
+            <div class="container ">
+                
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card bg-black text-bg-dark" style="width: 20rem;">
+                            <img class="card-img-top" src="https://picsum.photos/200/300" alt="Foto de obra">
+                            <div class="card-body">
+                                <h4>autor: fulano</h2>
+                            
+                                <h3>Titulo de Obra</h3>
+                                <p>_________</p>
+                                <h6>categoria</h6>
+                            </div>
+                        </div>
+                        <div class="card bg-black text-bg-dark" style="width: 20rem;">
+                            <img class="card-img-top" src="https://picsum.photos/200/300" alt="Foto de obra">
+                            <div class="card-body">
+                                <h4>autor: fulano</h2>
+                            
+                                <h3>Titulo de Obra</h3>
+                                <p>_________</p>
+                                <h6>categoria</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 pt-5">
+                        <div class="card bg-black text-bg-dark" style="width: 20rem;">
+                            <img class="card-img-top" src="https://picsum.photos/200/300" alt="Foto de obra">
+                            <div class="card-body">
+                                <h4>autor: fulano</h2>
+                            
+                                <h3>Titulo de Obra</h3>
+                                <p>_________</p>
+                                <h6>categoria</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </main>
+
+        <script type="module" src="js/app.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="js/bootstrap.bundle.js"></script>
+    </body>
+    </head>
 </html>
