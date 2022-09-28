@@ -5,6 +5,9 @@
 
 body {
 	font-family: "Roboto Mono", Helvetica, Arial, sans-serif;
+	background-color: black;
+	margin: 0;
+	padding: 0;
 }
 
 li, a, p, button, input {
@@ -74,6 +77,21 @@ img {
 	color: #070707;
 }
 
+#conteo-contenedor{
+	height: 48px;
+	width: 15%;
+	background-color: #F0F0F0;
+	height: auto;
+}
+
+#conteo-text {
+	color: black;
+	font-weight: bold;
+	font-size: .8rem;
+	text-align: center;
+	align-content: center;
+}
+
 /*********************
 **		CHROMA		**
 **********************/
@@ -141,12 +159,14 @@ img {
 }
 
 /*********************
-**		MIXTOS		**
+**	ICONOS REDES	**
 **********************/
 
 .sin-bullet
 {
     list-style-type:none;
+	padding: 0%;
+	margin: 0%;
 }
 
 .bi 
@@ -155,10 +175,49 @@ img {
 	font-size: 1.2em;
 }
 
+.sobre-y:hover {
+	color: yellow;
+}
+
+.sobre-r:hover {
+	color: rgb(255, 58, 44);
+}
+
+.sobre-b:hover {
+	color:cyan;
+}
+
+
+/*********************
+**		MIXTOS		**
+**********************/
+
+
 .titular {
 
-	font-size: 6.5rem;
+	font-size: 8rem;
 	
 	-webkit-text-stroke: 1px #F0F0F0;
 	color: #0000;
+}
+
+.enlace{
+	color: aliceblue;
+}
+
+.enlace:hover{
+	color: greenyellow;
+}
+
+p{
+	font-size: 14px;
+}
+
+.centrar-vertical > p{
+	display: flex;
+	margin: auto;
+	align-items:center;
+	justify-content:center;
+	padding: 0;
+	margin: 0;
 }
