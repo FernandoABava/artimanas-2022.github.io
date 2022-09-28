@@ -235,6 +235,7 @@ p{
 	color: #F0F0F0;
 	text-decoration: none;
 }
+
 .logo-blanco:hover
 {
 	color: #F0F0F0;
@@ -249,3 +250,26 @@ p{
 .logo-negro:hover{
 	color: #070707;
 }
+
+#fondo-textual
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	overflow: hidden;
+}
+
+#texto-borde
+{
+	font-size: 20rem;
+	font-weight: bold;
+	margin: 2em 5%;
+	line-height: .9em;
+	position: relative;
+	-webkit-text-stroke: 1px #c0c0c0;
+	color: #0000;
+}
+/*clip-path: inset(66.6% 0 0 0);*/	
