@@ -5,10 +5,12 @@
 
 body {
 	font-family: "Roboto Mono", Helvetica, Arial, sans-serif;
+	font-size: 15px;
 }
 
 li, a, p, button, input {
 	font-family: "Roboto Mono", Helvetica, Arial, sans-serif;
+	font-size: 15px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,9 +36,14 @@ img {
 	height: 100%;
 }
 
+.landing-main {
+	margin: 15rem 2.5rem;
+}
+
 .landing-title {
-	margin: 2em 5%;
-	font-size: 7rem;
+	display: block;
+	margin: 1rem 0.5em;
+	font-size: 5rem;
 	line-height: .9em;
 	position: relative;
 	-webkit-text-stroke: 1px #F0F0F0;
@@ -62,14 +69,14 @@ img {
 
 .landing-count {
 	display: initial;
-	position: relative;
+	/* position: relative; */
 	box-sizing: border-box;
+	font-weight: bold;
 
-	top: -10rem;
-	left: 5%;
-	margin-left: 7px;
+	/* top: 5%;
+	left: 5%; */
 
-	padding: 1em 2em;
+	padding: 0.5em 0.5em;
 	background-color: #F0F0F0;
 	color: #070707;
 }
