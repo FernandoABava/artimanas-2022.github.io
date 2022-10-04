@@ -63,6 +63,7 @@ a {
 	max-width: 1280px;
 	/* display: block; */
 	margin: 0 auto;
+	min-height: 80vh;
 }
 
 .grid-title-container {
@@ -74,6 +75,7 @@ a {
 	.grid-title-container {
 		grid-column: 3/11;
 		text-align: center;
+		grid-row: auto;
 	}
 }
 
@@ -134,7 +136,9 @@ a {
 .grid-count-container {
 	grid-column: span 2/auto;
 	grid-row-start: 2;
-	margin-top: 15vh;
+	/* margin-top: 15vh; */
+	display: flex;
+	flex-direction: column-reverse;
 }
 
 @media screen and (min-width: 1200px){
@@ -266,4 +270,77 @@ a {
 
 	text-align: center;
 	cursor: pointer;
+}
+
+.chroma-button a:hover {
+	color: inherit;
+}
+
+/*********************
+**	 ICONOS REDES	**
+**********************/
+
+.grid-social-container {
+	grid-column-start: 4;
+	grid-row-start: 2;
+}
+
+@media screen and (min-width: 1200px) {
+	.grid-social-container {
+		grid-column-start: 12;
+		grid-row-start: auto;
+	}
+}
+
+.sin-bullet
+{
+    list-style-type:none;
+	padding: 0%;
+	margin: 0%;
+}
+
+.social-list {
+	display: flex;
+	flex-direction: column;
+	gap: 36px;
+	align-items: center;
+}
+@media screen and (min-width: 1200px) {
+	.social-list {
+		gap: 40px;
+	}
+}
+
+.social-list .bi {
+	color: white;
+	font-size: 20px;
+}
+@media screen and (min-width: 1200px) {
+	.social-list .bi {
+		font-size: 26px;
+	}
+}
+
+.sobre-r:hover {
+	color: #F00000;
+}
+
+.sobre-g:hover {
+	color: #00F000;
+}
+
+.sobre-b:hover {
+	color: #0000F0;
+}
+
+.sobre-c:hover {
+	color: #00F0F0;
+}
+
+.sobre-m:hover {
+	color: #F000F0;
+}
+
+.sobre-y:hover {
+	color: #F0F000;
 }
