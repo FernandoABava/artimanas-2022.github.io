@@ -1,5 +1,6 @@
 import insertHeaderAndFooter from './insertHeaderAndFooter.js'
 import {fetchProfileList} from './fetchProfile.js'
+import setCounterFill from './counterFill.js'
 
 const urlPerfiles = 'perfil.html'
 
@@ -19,5 +20,5 @@ async function init(event) {
 	// 	li.append(a)
 	// 	listEl.append(li)
 	// });
-	
+	setCounterFill()
 }

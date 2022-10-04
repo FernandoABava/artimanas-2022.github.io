@@ -1,0 +1,77 @@
+.chroma-container {
+	width: fit-content;
+	padding: 2em;
+	/* float: right; */
+	margin: auto;
+	position: relative;
+
+	cursor: pointer;
+}
+
+.chroma-container:active .chroma.red,
+.chroma-container:focus .chroma.red,
+.chroma-container:hover .chroma.red {
+	top: 0.25em;
+	left: -0.25em;
+}
+
+.chroma-container:active .chroma.blue,
+.chroma-container:focus .chroma.red,
+.chroma-container:hover .chroma.blue {
+	top: -0.25em;
+	left: 0.25em;
+}
+
+@media screen and (max-width: 1200px){
+	.chroma-container .chroma.red {
+		top: 0.25em;
+		left: -0.25em;
+	}
+	.chroma-container .chroma.blue {
+		top: -0.25em;
+		left: 0.25em;
+	}
+}
+
+.chroma {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+
+	mix-blend-mode: lighten;
+
+	transition: all 0.25s ease-in-out;
+}
+
+.chroma.red {
+	background-color: #F00000;
+}
+.chroma.green {
+	background-color: #00F000;
+}
+.chroma.blue {
+	background-color: #0000F0;
+}
+
+.chroma-button {
+	width: 100%;
+	height: 100%;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	background-color: #0000;
+	border: none;
+	color: #070707;
+
+	text-align: center;
+	cursor: pointer;
+}
+
+.chroma-button a:hover {
+	color: inherit;
+}
