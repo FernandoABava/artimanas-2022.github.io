@@ -16,5 +16,7 @@ export default function setCounterFill() {
 	titleSpan.style.transition = 'all 2s ease-in-out'
 	titleSpan.style.clipPath = `inset( ${fill}% 0 0 0)`
 
+	setTimeout(()=>{titleSpan.style.transition = 'none'}, 3000);
+
 	return tiempoQueFalta;
 }
