@@ -9,7 +9,7 @@ export default function setCounterFill() {
 	let tiempoQueFalta = ( artimaniasDate.getTime() - today.getTime() )
 
 	let diasQueFalta = Math.floor((((tiempoQueFalta / 1000) / 60) / 60)/24);
-	counterText.innerText = `Faltan ${diasQueFalta} días`
+	counterText.innerText = `faltan ${diasQueFalta} días`
 
 	tiempoQueFalta /= artimaniasDate.getTime() - fechaDeReferencia.getTime();
 	let fill = (tiempoQueFalta) * 100.0;

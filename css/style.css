@@ -43,7 +43,7 @@ a {
 **		HEADER		**
 **********************/
 .header-grid-container {
-	grid-row-start: -1;
+	grid-row-start: 1;
 }
 
 .header {
@@ -64,7 +64,7 @@ a {
 	max-width: 1280px;
 	/* display: block; */
 	margin: 0 auto;
-	min-height: 80vh;
+	min-height: 100vh;
 }
 
 .grid-title-container {
@@ -93,7 +93,7 @@ a {
 .landing-title {
 	/* margin: 2em 5%; */
 	margin: 0;
-	font-size: 8rem;
+	font-size: 9rem;
 	font-weight: 600;
 	line-height: .9em;
 	position: relative;
@@ -103,7 +103,7 @@ a {
 
 @media screen and (max-width: 1200px) {
 	.landing-title {
-		font-size: 80px;
+		font-size: 85px;
 	}
 }
 
@@ -123,7 +123,7 @@ a {
 	top: 0;
 	left: 0;
 
-	-webkit-text-stroke: none;
+	-webkit-text-stroke: 1px #F0F0F0;
 	color: #F0F0F0;
 
 	/*VALOR A MODIFICAR PARA EL FILL*/
@@ -155,9 +155,13 @@ a {
 	width: fit-content;
 	font-weight: bold;
 
-	padding: 8px 12px;
+	padding: 12px 16px;
 	background-color: #F0F0F0;
 	color: #070707;
+
+	font-family: "Rubik", Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	font-size: 16px;
 }
 
 /*********************
