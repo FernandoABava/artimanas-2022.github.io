@@ -314,11 +314,26 @@ p{
 	size: 60px;
 }
 
-.card-autor
+.carta-autor
+{
+	background-color: white;
+	height: min-content;
+	position: absolute;
+	display: table;
+	padding: 12px 8px;
+	margin-left: 4%;
+	margin-top: 4%;
+
+}
+
+.carta-autor p
 {
 	color: rgb(0, 0, 0);
-	font-size: small;
+	font-size: 1rem;
 	font-family: 'Courier New', Courier, monospace;
+	display: table-cell;
+	vertical-align: middle;
+	font-weight: bolder;
 }
 
 .card-footer p
