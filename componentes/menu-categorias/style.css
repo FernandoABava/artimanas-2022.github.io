@@ -1,0 +1,68 @@
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
+  @keyframes fadeOut {
+	0% { opacity: 1; }
+	100% { opacity: 0; }
+  }
+.general {
+	display: flex;
+}
+.listacat span, #listacat p {
+	writing-mode: vertical-lr;
+	transform: rotate(180deg);
+	list-style: square inside;
+	margin:0;
+	cursor:pointer;
+}
+.listacat span {
+	 visibility: hidden; 
+	opacity:0;
+	font-weight: bold;
+	transition:visibility 0s 0.75s, opacity 0.5s linear;
+}
+.listacat .itemlista {
+	align-items: center;
+	display: flex;
+	height: 20vh;
+}
+.categorias {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: -74px;
+	position: fixed;
+}
+.cuadradito {
+	width: 8px;
+	height: 8px;
+	border: 1px solid black;
+	left: 35%;
+	position: absolute;
+	margin-left: 0;
+	transition: margin-left 2s;
+	cursor: pointer;
+}
+.cuadradito:hover{
+	background-color:black;
+	transition: background-color 2s;
+}
+.cuadradito:focus {
+	background-color: black;
+}
+.cuadradito.active{
+	background-color: black;
+	left:80%;
+	margin-left: 20px;
+	transition: margin-left 2s;
+}
+ .itemnombre.active{
+	visibility: visible;
+	transition:opacity 1s linear;
+	opacity: 1;
+}
+#realidadaumentada,#artevisual,#videojuegos {
+	scroll-margin-top: 2.5rem;
+}
