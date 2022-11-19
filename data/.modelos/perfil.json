@@ -1,0 +1,21 @@
+{
+	"id":"string",
+	"nombre":"string",
+	"titulo_tesina":"string",
+	"titulo_obra":"string",
+	"descripcion_obra":"string",
+	"categoría":"string",
+	"foto_perfil":"string (url)",
+	"foto_portada":{
+		"alt":"string",
+		"src":"string (url)"
+	},
+	"fotos_obra":[
+		{
+			"alt":"string",
+			"src":"string (url)"
+		}
+	],
+	"video":"string (url)",
+	"pdf":"string (url)"
+}
