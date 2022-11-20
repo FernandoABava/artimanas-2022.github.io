@@ -1,79 +1,50 @@
 {"perfiles" : [
-		{
-			"id":"emmet",
-			"nombre":"Emmet",
-			"descripcion":"No sé, pero funciona",
-			"titulo_tesina":"Investigación sobre un coso multimedial",
-			"titulo_obra":"Un coso multimedial",
-			"tags":[
-				"Multimedia", "Coso", "Arte"
-			],
-			"foto_perfil":"./data/imgs/Emmet/perfil.jpg",
-			"fotos_obra":[
-				{
-					"alt":"string",
-					"src":"string (data/imgs/nombre/....png)"
-				}
-			],
-			"video":"string (data/videos/nombre/....mp4)",
-			"pdf":"string (data/pdfs/nombre/....pdf)"
+	{
+		"id":"lauvaldez",
+		"nombre":"Lautaro Valdez",
+		"titulo_obra":"int_26.11.22",
+		"titulo_tesina":"Criptoarte: La tokenización como certificado de la originalidad digital",
+		"descripcion_obra":" \"int_26.11.22\" es una instalación interactiva que busca evidenciar cómo la acción colectiva de las personas puede modificar un objeto único para transformarlo en algo diferente. <br>La obra consta de un totem físico situado frente a una pantalla que contiene una esfera digital. A través de la parte física, un cubo, las personas que interactúan modifican la parte digital tanto en su forma como también en su color y comportamiento.<br>La suma de interacciones de las personas usuarias generan así nuevos diseños, colores y comportamientos únicos que poco a poco van explotando la esfera.<br>Cada una de las piezas digitales creadas por la acción física de las personas es grabada y guardada dentro del sistema, creando así un repositorio o collage digital de cada acción, con su color, comportamiento y duración.<br>Contar con cada una de estas interacciones en un formato de video me permite poder reutilizarlas para generar así nuevas composiciones visuales.",
+		"categoria":"arte electrónico",
+		"foto_perfil":"./data/lauvaldez/perfil.jpg",
+		"foto_portada":"./data/lauvaldez/portada.png",
+		"fotos_obra":[
+			{
+				"alt":"La mano de una persona interactuando con la obra",
+				"src":"./data/lauvaldez/img_obra_1.png"
+			},
+			{
+				"alt":"Diferentes iteraciones de la obra",
+				"src":"./data/lauvaldez/img_obra_2.png"
+			},
+			{
+				"alt":"Imagen del explorador de archivos con diferentes videos de varias interacciones",
+				"src":"./data/lauvaldez/img_obra_3.png"
+			}
+		],
+		"video":"https://www.youtube.com/",
+		"pdf":"./data/lauvaldez/investigacion.pdf"
+	},
+	{
+		"id":"emmet",
+		"nombre":"Emmet",
+		"titulo_tesina":"Investigación sobre un coso multimedial",
+		"titulo_obra":"Un coso multimedial",
+		"descripcion_obra":"No sé, pero funciona",
+		"categoria":"Arte electrónico",
+		"foto_perfil":"./data/imgs/Emmet/perfil.jpg",
+		"foto_portada":{
+			"alt":"string",
+			"src":"string (data/emmet/portada.png)"
 		},
-		{
-			"id":"emmet1",
-			"nombre":"Emmet - 1",
-			"descripcion":"No sé, pero funciona",
-			"titulo_tesina":"Investigación sobre un coso multimedial",
-			"titulo_obra":"Un coso multimedial",
-			"tags":[
-				"Multimedia", "Coso", "Arte"
-			],
-			"foto_perfil":"./data/imgs/Emmet/perfil.jpg",
-			"fotos_obra":[
-				{
-					"alt":"string",
-					"src":"string (data/imgs/nombre/....png)"
-				}
-			],
-			"video":"string (data/videos/nombre/....mp4)",
-			"pdf":"string (data/pdfs/nombre/....pdf)"
-		},
-		{
-			"id":"emmet2",
-			"nombre":"Emmet - 2",
-			"descripcion":"No sé, pero funciona",
-			"titulo_tesina":"Investigación sobre un coso multimedial",
-			"titulo_obra":"Un coso multimedial",
-			"tags":[
-				"Multimedia", "Coso", "Arte"
-			],
-			"foto_perfil":"./data/imgs/Emmet/perfil.jpg",
-			"fotos_obra":[
-				{
-					"alt":"string",
-					"src":"string (data/imgs/nombre/....png)"
-				}
-			],
-			"video":"string (data/videos/nombre/....mp4)",
-			"pdf":"string (data/pdfs/nombre/....pdf)"
-		},
-		{
-			"id":"emmet3",
-			"nombre":"Emmet - 3",
-			"descripcion":"No sé, pero funciona",
-			"titulo_tesina":"Investigación sobre un coso multimedial",
-			"titulo_obra":"Un coso multimedial",
-			"tags":[
-				"Multimedia", "Coso", "Arte"
-			],
-			"foto_perfil":"./data/imgs/Emmet/perfil.jpg",
-			"fotos_obra":[
-				{
-					"alt":"string",
-					"src":"string (data/imgs/nombre/....png)"
-				}
-			],
-			"video":"string (data/videos/nombre/....mp4)",
-			"pdf":"string (data/pdfs/nombre/....pdf)"
-		}
-	]
+		"fotos_obra":[
+			{
+				"alt":"string",
+				"src":"string (data/imgs/nombre/....png)"
+			}
+		],
+		"video":"string (data/videos/nombre/....mp4)",
+		"pdf":"string (data/pdfs/nombre/....pdf)"
+	}
+]
 }

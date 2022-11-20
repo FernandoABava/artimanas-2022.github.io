@@ -12,7 +12,8 @@
 
     <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/perfil.style.css">
+
 
     <!-- JS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -21,18 +22,63 @@
   </head>
   <body id="body">
 
-	<div class="container">
-	  <div class="row" style="margin-top: 5%">
-	    <h1 id="nombre"></h1>
-		<img id="perfil-img" src="" alt="">
-		<p id="resumen"></p>
-		<br>
-		<span>Tesis: </span>
-		<h3 id="titulo-tesina"></h3>
-		<span>Obra: </span>
-		<h3 id="titulo-obra"></h3>
-	  </div>
-	</div>
+      <header>
 
+      </header>
+
+      <section class="portada">
+          <!-- <img id="portada-img" src="" alt="" aria-hidden="true"> -->
+          <div class="container">
+              <div class="flex-container">
+                  <div class="titulo">
+                      <h1 id="titulo_obra"></h1>
+                      <h4 id="categoria"></h4>
+                  </div>
+                  <div class="info-perfil">
+                      <img id="foto_perfil" src="" alt="">
+                      <h5 id="nombre"></h5>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="obra">
+          <div class="container">
+              <div class="presentacion">
+                  <h2>_presentación</h2>
+                  <div id="video" class="video"></div>
+                  <hr>
+              </div>
+              <div class="obra">
+                  <h2>_obra</h2>
+                  <div class="col">
+                      <div id="descripcion_obra"></div>
+                  </div>
+                  <div id="fotos_obra" class="col">
+                    <!-- imgs -->
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="investigacion">
+          <div class="container">
+              <h2>_investigacion</h2>
+              <div id="titulo_tesina" class="titulo_tesina"></div>
+              <a id="link_pdf" href="#">leer investigacion -></a>
+          </div>
+      </section>
+
+      <section class="proxima-obra">
+          <div class="container">
+              <h2>_próxima obra</h2>
+              <div id="card-prox-obra"></div>
+              <a href="obras.html">volver a todas las obras</a>
+          </div>
+      </section>
+
+      <footer class="footer">
+
+      </footer>
   </body>
 </html>
