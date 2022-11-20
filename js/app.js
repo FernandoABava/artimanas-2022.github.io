@@ -27,11 +27,10 @@ const realidadAumentada = document.getElementById("realidadaumentada");
 const arteVisual = document.getElementById("artevisual");
 const videojuegos = document.getElementById("videojuegos");
 const categorias = [arteElectronico,realidadAumentada,arteVisual,videojuegos];
-const cards = document.getElementsByClassName('card');
 
 const cuadradito = Array.from(document.getElementsByClassName("cuadradito"));
 
-cuadradito.forEach((item, i) => item.addEventListener('click', () => {  //añado evento onClick para que scrollee al hacer click en categoria.
+cuadradito.forEach((item, i) => item.addEventListener('click', () => {  
 	categorias[i].scrollIntoView({ behavior: 'smooth' });
 })); 
 
@@ -41,9 +40,9 @@ document.addEventListener('scroll', () => { // añado evento onScroll
 
 	for (let i = 0; i < categorias.length; i++) {
 		if (
-			window.scrollY + 200  >= categorias[i].offsetTop &&  // si el offset de la ventana es mayor al offset de la primer card
-			window.scrollY  <= categorias[(i == 3) ? i : (i + 1)].offsetTop // de esa categoria y menor a la que le sigue,
-		 ) {																//	se activa la categoría
+			window.scrollY + 200  >= categorias[i].offsetTop &&  
+			window.scrollY  <= categorias[(i == 3) ? i : (i + 1)].offsetTop 
+		 ) {																
 			lastItem=cuadradito[i];
 
 			if(!lastItem.classList.contains("active")){
@@ -59,15 +58,5 @@ document.addEventListener('scroll', () => { // añado evento onScroll
 			};
 		 };
 	};
-
-	if (window.innerWidth < 768) {
-		for (let i = 0; i < cards.length; i++) {
-			if (window.scrollY + 250 >= cards[i].offsetTop && window.scrollY  <= cards[i].offsetTop + cards[i].clientHeight-200) {
-					cards[i].classList.add("active");
-			 } else {
-					cards[i].className = cards[i].className.replace("active", "");
-			 }
-		}
-	}
 });
 
