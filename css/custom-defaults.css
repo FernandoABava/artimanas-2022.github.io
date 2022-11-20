@@ -2,6 +2,8 @@
 body {
 	font-family: "Roboto Mono", Helvetica, Arial, sans-serif;
 	font-size: 15px;
+	margin: 0;
+	padding: 0;
 }
 
 li, a, p, button, input {

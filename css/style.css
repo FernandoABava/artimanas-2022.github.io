@@ -4,6 +4,550 @@
 @import url("./custom-defaults.css");
 @import url("../componentes/chroma-button/style.css");
 
+
+#body {
+	color: #F0F0F0;
+	background-color: #070707;
+}
+
+/*********************
+**		HEADER		**
+**********************/
+.header-grid-container {
+	grid-row-start: 1;
+}
+
+.header {
+	width: 72px;
+	height: 72px;
+	font-size: 64px;
+	text-align: center;
+	font-family: "Rubik", Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	color: #F0F0F0;
+	text-decoration: none;
+}
+
+
+
+/*********************
+**	TÍTULO LANDING	**
+**********************/
+.landing-container {
+	max-width: 1280px;
+	/* display: block; */
+	margin: 0 auto;
+	min-height: 100vh;
+}
+
+.grid-title-container {
+	grid-column: span 4/auto;
+	grid-row-start: 3;
+	text-align: left;
+}
+@media screen and (min-width: 1200px){
+	.grid-title-container {
+		grid-column: 3/11;
+		text-align: center;
+		grid-row: auto;
+	}
+}
+
+.lading-title-container {
+	display: block;
+	margin: 0 auto;
+	width: fit-content;
+}
+
+.landing-main {
+	margin: 15rem 2.5rem;
+}
+
+.landing-title {
+	/* margin: 2em 5%; */
+	margin: 0;
+	font-size: 9rem;
+	font-weight: 600;
+	line-height: .9em;
+	position: relative;
+	-webkit-text-stroke: 1px #646464;
+	color: #0000;
+}
+
+@media screen and (max-width: 1200px) {
+	.landing-title {
+		font-size: 85px;
+	}
+}
+
+.landing-title .arti {
+	display: block;
+}
+
+@media screen and (min-width: 1200px){
+	.landing-title .arti {
+		display: inline;
+	}
+}
+
+.landing-title span {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+
+	-webkit-text-stroke: 1px #F0F0F0;
+	color: #F0F0F0;
+
+	/*VALOR A MODIFICAR PARA EL FILL*/
+	clip-path: inset(100% 0 0 0);
+	transition: all 2s ease-in-out;
+}
+
+/*********************
+**		CONTADOR	**
+**********************/
+.grid-count-container {
+	grid-column: span 2/auto;
+	grid-row-start: 2;
+	/* margin-top: 15vh; */
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+@media screen and (min-width: 1200px){
+	.grid-count-container {
+		grid-column: 2/4;
+		margin-top: 0;
+	}
+}
+
+.landing-count {
+	position: relative;
+	box-sizing: border-box;
+	width: fit-content;
+	font-weight: bold;
+
+	padding: 12px 16px;
+	background-color: #F0F0F0;
+	color: #070707;
+
+	font-family: "Rubik", Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+#conteo-contenedor{
+	height: 64px;
+	width: 15%;
+	background-color: #F0F0F0;
+	height: auto;
+}
+
+#conteo-text {
+	color: black;
+	font-weight: bold;
+	font-size: .8rem;
+	text-align: center;
+	align-content: center;
+}
+
+/*********************
+**	 DESCRIPTION	**
+**********************/
+.grid-description-container {
+	grid-column: 2/5;
+	grid-row-start: 4;
+}
+
+.description-line{
+	line-height: 16.8px;
+	margin:0;
+}
+.description-line.light{
+	font-weight: lighter;
+}
+
+@media screen and (min-width: 1200px){
+	.grid-description-container {
+		grid-column: 6/12;
+	}
+	.description-line{
+		line-height: 18px
+	}
+}
+
+/*********************
+**		CHROMA		**
+**********************/
+.grid-chroma-container {
+	grid-column-start: 4;
+	grid-row-start: 5;
+}
+
+@media screen and (min-width: 1200px){
+	.grid-chroma-container {
+		grid-column-start: 12;
+	}
+}
+
+
+
+/*********************
+**	 ICONOS REDES	**
+**********************/
+
+.grid-social-container {
+	grid-column-start: 4;
+	grid-row-start: 2;
+}
+
+@media screen and (min-width: 1200px) {
+	.grid-social-container {
+		grid-column-start: 12;
+		grid-row-start: auto;
+		transition: all 0.2s ease-in-out;
+	}
+}
+
+.sin-bullet
+{
+    list-style-type:none;
+	padding: 0%;
+	margin: 0%;
+}
+
+.social-list {
+	display: flex;
+	flex-direction: column;
+	gap: 36px;
+	align-items: center;
+}
+@media screen and (min-width: 1200px) {
+	.social-list {
+		gap: 40px;
+	}
+}
+
+.social-list .bi {
+	color: white;
+	font-size: 20px;
+}
+@media screen and (min-width: 1200px) {
+	.social-list .bi {
+		font-size: 26px;
+	}
+}
+
+.sobre-r:hover {
+	color: #F00000;
+}
+
+.sobre-g:hover {
+	color: #00F000;
+}
+
+.sobre-b:hover {
+	color: #0000F0;
+}
+
+.sobre-c:hover {
+	color: #00F0F0;
+}
+
+.sobre-m:hover {
+	color: #F000F0;
+}
+
+.sobre-y:hover {
+	color: #F0F000;
+}
+
+/*********************
+**	ICONOS REDES	**
+**********************/
+
+.sin-bullet
+{
+    list-style-type:none;
+	padding: 0%;
+	margin: 0%;
+}
+
+.bi
+{
+	color: white;
+	font-size: 1.2em;
+}
+
+.sobre-y:hover {
+	color: yellow;
+}
+
+.sobre-r:hover {
+	color: rgb(255, 58, 44);
+}
+
+.sobre-b:hover {
+	color:cyan;
+}
+
+/*********************
+**	SCROLL OBRAS	**
+**********************/
+
+.card-columns {
+	@include media-breakpoint-only(lg) {
+	  column-count: 4;
+	}
+	@include media-breakpoint-only(xl) {
+	  column-count: 5;
+	}
+  }
+
+/*********************
+**	PAGINA OBRAS	**
+**********************/
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
+  @keyframes fadeOut {
+	0% { opacity: 1; }
+	100% { opacity: 0; }
+  }
+.general {
+	display: flex;
+}
+
+.listacat span, #listacat p {
+	writing-mode: vertical-lr;
+	transform: rotate(180deg);
+	list-style: square inside;
+	margin:0;
+	cursor:pointer;
+}
+.listacat span {
+	 visibility: hidden;
+	opacity:0;
+	font-weight: bold;
+	transition:visibility 0s 0.75s, opacity 0.5s linear;
+	height: max-content;
+}
+.listacat .itemlista {
+	align-items: center;
+	display: flex;
+	height: 20vh;
+}
+.categorias {
+	position: sticky;
+	align-self: flex-start;
+	top:16px;
+	/*bottom:-32px;*/
+}
+.cuadradito {
+	width: 8px;
+	height: 8px;
+	border: 1px solid black;
+	box-sizing: border-box;
+	left: 35%;
+	position: absolute;
+	transition: margin-left 2s;
+	cursor: pointer;
+	padding: 0%;
+	margin: 0%;
+}
+.cuadradito:hover{
+	background-color:black;
+	transition: background-color 2s;
+}
+.cuadradito:focus {
+	background-color: black;
+}
+.cuadradito.active{
+	background-color: black;
+	left:80%;
+	margin-left: 10px;
+	transition: margin-left 1s;
+}
+.itemnombre.active{
+	visibility: visible;
+	transition:opacity 1s linear;
+	opacity: 1;
+}
+#realidadaumentada,#artevisual,#videojuegos {
+	scroll-margin-top: 2.5rem;
+}
+
+/*********************
+**		MIXTOS		**
+**********************/
+
+.titular {
+
+	font-size: 8rem;
+	font-weight: bold;
+
+	-webkit-text-stroke: 1px #F0F0F0;
+	color: #0000;
+}
+
+.enlace{
+	color: aliceblue;
+}
+
+.enlace:hover{
+	color: greenyellow;
+}
+
+p{
+	font-size: 18px;
+}
+
+.centrar-vertical > p{
+	display: flex;
+	margin: auto;
+	align-items:center;
+	justify-content:center;
+	padding: 0;
+	margin: 0;
+}
+
+#tema-oscuro{
+	background-color: #070707;
+}
+
+#tema-claro
+{
+	background-color: whitesmoke;
+}
+
+.logo-blanco
+{
+	color: #F0F0F0;
+	text-decoration: none;
+}
+
+.logo-blanco:hover
+{
+	color: #F0F0F0;
+}
+
+.logo-negro{
+	color: #070707;
+	text-decoration: none;
+	text-decoration: bolder;
+}
+
+.logo-negro:hover{
+	color: #070707;
+}
+
+#fondo-textual
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	overflow: hidden;
+	stroke: #070707;
+}
+
+#texto-borde
+{
+	font-size: 8rem;
+	font-weight: bold;
+	margin: 2em 5%;
+	line-height: .9em;
+	position: relative;
+	-webkit-text-stroke: 1px #6d6d6d;
+	color: #0000;
+}
+/*clip-path: inset(66.6% 0 0 0);*/
+
+/*********************
+**		CARTAS DE OBRA		**
+**********************/
+
+.carta-obra
+{
+	color: white;
+	text-decoration: none;
+	font-weight:bold;
+	font-size: larger;
+
+}
+
+.carta-obra:hover
+{
+	color: white;
+	text-decoration: none;
+	font-weight:normal;
+
+}
+
+.card-header
+{
+	margin: 2%;
+	height: 50px;
+	size: 60px;
+}
+
+.carta-autor
+{
+	background-color: white;
+	height: min-content;
+	position: absolute;
+	display: table;
+	padding: 12px 8px;
+	margin-left: 4%;
+	margin-top: 4%;
+
+}
+
+.carta-autor p
+{
+	color: rgb(0, 0, 0);
+	font-size: 1rem;
+	font-family: 'Courier New', Courier, monospace;
+	display: table-cell;
+	vertical-align: middle;
+	font-weight: bolder;
+}
+
+.card-footer p
+{
+	font-size: 1rem;
+}
+
+.card-body hr{
+	color: #f0f0f0;
+
+}
+
+.card
+{
+	border-radius: 0%;
+	filter: grayscale(80%);
+	transition: 1s filter linear;
+}
+.card:hover{
+	filter: grayscale(0%);
+	transition: 1s filter linear;
+}
+.card.active{
+	filter: grayscale(0%);
+	transition: 1s filter linear;
+}
+
+/*********************
+**		GENERAL		**
+**********************/
+@import url("./custom-defaults.css");
+@import url("../componentes/chroma-button/style.css");
+
 #body {
 	color: #F0F0F0;
 	background-color: #070707;
@@ -242,4 +786,8 @@
 
 .sobre-y:hover {
 	color: #F0F000;
+}
+
+.logo-taller{
+		max-height: 80px;
 }
