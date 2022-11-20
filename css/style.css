@@ -237,22 +237,23 @@ img {
 	height: 20vh;
 }
 .categorias {
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-top: -74px;
-	position: fixed;
+	position: sticky; 
+	align-self: flex-start; 
+	top:16px; 
+	/*bottom:-32px;*/
 }
 .cuadradito {
-	width: 8px;
+	max-width: 8px;
 	height: 8px;
 	border: 1px solid black;
+	box-sizing: border-box;
 	left: 35%;
 	/*position: absolute; */
 	margin-left: 0;
 	transition: margin-left 2s;
 	cursor: pointer;
+	padding: 0%;
+	margin: 0%;
 }
 .cuadradito:hover{
 	background-color:black;
