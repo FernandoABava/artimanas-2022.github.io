@@ -222,7 +222,6 @@ img {
 	list-style: square inside;
 	margin:0;
 	cursor:pointer;
-	
 }
 .listacat span {
 	 visibility: hidden; 
@@ -243,13 +242,12 @@ img {
 	/*bottom:-32px;*/
 }
 .cuadradito {
-	max-width: 8px;
+	width: 8px;
 	height: 8px;
 	border: 1px solid black;
 	box-sizing: border-box;
 	left: 35%;
-	/*position: absolute; */
-	margin-left: 0;
+	position: absolute; 
 	transition: margin-left 2s;
 	cursor: pointer;
 	padding: 0%;
@@ -265,10 +263,10 @@ img {
 .cuadradito.active{
 	background-color: black;
 	left:80%;
-	margin-left: 20px;
-	transition: margin-left 2s;
+	margin-left: 10px;
+	transition: margin-left 1s;
 }
-.itemnombre:active{
+.itemnombre.active{
 	visibility: visible;
 	transition:opacity 1s linear;
 	opacity: 1;
@@ -280,7 +278,6 @@ img {
 /*********************
 **		MIXTOS		**
 **********************/
-
 
 .titular {
 
