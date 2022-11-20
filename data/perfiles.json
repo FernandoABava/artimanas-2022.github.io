@@ -1,12 +1,12 @@
 {"perfiles" : [
 	{
 		"id":"lauvaldez",
-		"nombre":"Lautaro Valdez",
+		"nombre":"lautaro valdez",
 		"titulo_obra":"int_26.11.22",
 		"titulo_tesina":"Criptoarte: La tokenización como certificado de la originalidad digital",
 		"descripcion_obra":" \"int_26.11.22\" es una instalación interactiva que busca evidenciar cómo la acción colectiva de las personas puede modificar un objeto único para transformarlo en algo diferente. <br>La obra consta de un totem físico situado frente a una pantalla que contiene una esfera digital. A través de la parte física, un cubo, las personas que interactúan modifican la parte digital tanto en su forma como también en su color y comportamiento.<br>La suma de interacciones de las personas usuarias generan así nuevos diseños, colores y comportamientos únicos que poco a poco van explotando la esfera.<br>Cada una de las piezas digitales creadas por la acción física de las personas es grabada y guardada dentro del sistema, creando así un repositorio o collage digital de cada acción, con su color, comportamiento y duración.<br>Contar con cada una de estas interacciones en un formato de video me permite poder reutilizarlas para generar así nuevas composiciones visuales.",
 		"categoria":"arte electrónico",
-		"foto_perfil":"./data/lauvaldez/perfil.jpg",
+		"foto_perfil":"./data/lauvaldez/perfil.png",
 		"foto_portada":"./data/lauvaldez/portada.png",
 		"fotos_obra":[
 			{
@@ -22,7 +22,7 @@
 				"src":"./data/lauvaldez/img_obra_3.png"
 			}
 		],
-		"video":"https://www.youtube.com/",
+		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/unNxndpSf6U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
 		"pdf":"./data/lauvaldez/investigacion.pdf"
 	},
 	{

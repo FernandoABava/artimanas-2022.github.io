@@ -23,13 +23,13 @@ async function populate() {
 	const linkPdfEl = document.querySelector('#link_pdf')
 	const proxObra = document.querySelector('#card-prox-obra')
 
-	portadaEl.style.backgroundImage = `url(${profileData.foto_portada})`
+	portadaEl.style.backgroundImage = `linear-gradient(180deg, rgba(7, 7, 7, 0) 0%, #070707 100%), url(${profileData.foto_portada})`
 	tituloObraEl.innerText = profileData.titulo_obra
 	categoriaEl.innerText = profileData.categoria
 	fotoPerfilEl.src = profileData.foto_perfil
 	foto_perfil.alt = `Foto de ${profileData.nombre}`
 	nombreEl.innerText = profileData.nombre
-	videoEl.innerHtml = profileData.video
+	videoEl.innerHTML = profileData.video
 
 	// DESCRIPCION
 
@@ -69,6 +69,6 @@ async function populate() {
 
 	// FIN DESCRIPCION
 
-	tituloTesinaEl.innerHtml = profileData.titulo_tesina
+	tituloTesinaEl.innerText = profileData.titulo_tesina
 	link_pdf.href = profileData.pdf
 }

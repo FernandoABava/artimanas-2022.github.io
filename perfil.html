@@ -29,16 +29,16 @@
       <section class="portada">
           <!-- <img id="portada-img" src="" alt="" aria-hidden="true"> -->
           <div class="container">
-              <div class="flex-container">
+              <!-- <div class="flex-container"> -->
                   <div class="titulo">
                       <h1 id="titulo_obra"></h1>
-                      <h4 id="categoria"></h4>
+                      <span id="categoria"></span>
                   </div>
                   <div class="info-perfil">
                       <img id="foto_perfil" src="" alt="">
-                      <h5 id="nombre"></h5>
+                      <h4 id="nombre"></h4>
                   </div>
-              </div>
+              <!-- </div> -->
           </div>
       </section>
 
@@ -51,11 +51,13 @@
               </div>
               <div class="obra">
                   <h2>_obra</h2>
-                  <div class="col">
-                      <div id="descripcion_obra"></div>
-                  </div>
-                  <div id="fotos_obra" class="col">
-                    <!-- imgs -->
+                  <div class="flex-container">
+                      <div class="col sticky">
+                          <div id="descripcion_obra"></div>
+                      </div>
+                      <div id="fotos_obra" class="col">
+                          <!-- imgs -->
+                      </div>
                   </div>
               </div>
           </div>
@@ -63,9 +65,21 @@
 
       <section class="investigacion">
           <div class="container">
-              <h2>_investigacion</h2>
-              <div id="titulo_tesina" class="titulo_tesina"></div>
-              <a id="link_pdf" href="#">leer investigacion -></a>
+              <div class="flex-container">
+                  <div class="col">
+                      <h2>_investigación</h2>
+                      <span id="titulo_tesina" class="titulo_tesina"></span>
+
+                      <div class="chroma-container">
+                          <div class="chroma red"></div>
+                          <div class="chroma green"></div>
+                          <div class="chroma blue"></div>
+                          <button class="chroma-button" type="button" name="chroma">
+                              <a id="link_pdf" href="#">leer investigación -></a>
+                          </button>
+                      </div>
+                  </div>
+              </div>
           </div>
       </section>
 
@@ -77,7 +91,7 @@
           </div>
       </section>
 
-      <footer class="footer">
+      <footer class="footer" style="min-height: 200px;">
 
       </footer>
   </body>

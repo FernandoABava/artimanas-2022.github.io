@@ -11,25 +11,25 @@
 .chroma-container:active .chroma.red,
 .chroma-container:focus .chroma.red,
 .chroma-container:hover .chroma.red {
-	top: 0.25em;
-	left: -0.25em;
+	top: 0.3em;
+	left: -0.3em;
 }
 
 .chroma-container:active .chroma.blue,
 .chroma-container:focus .chroma.red,
 .chroma-container:hover .chroma.blue {
-	top: -0.25em;
-	left: 0.25em;
+	top: -0.3em;
+	left: 0.3em;
 }
 
 @media screen and (max-width: 1200px){
 	.chroma-container .chroma.red {
-		top: 0.25em;
-		left: -0.25em;
+		top: 0.3em;
+		left: -0.3em;
 	}
 	.chroma-container .chroma.blue {
-		top: -0.25em;
-		left: 0.25em;
+		top: -0.3em;
+		left: 0.3em;
 	}
 }
 
