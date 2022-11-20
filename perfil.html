@@ -12,7 +12,8 @@
 
     <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/perfil.style.css">
+
 
     <!-- JS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -26,14 +27,17 @@
       </header>
 
       <section class="portada">
+          <!-- <img id="portada-img" src="" alt="" aria-hidden="true"> -->
           <div class="container">
-              <div class="titulo">
-                  <h1 id="titulo_obra"></h1>
-                  <h4 id="categoria"></h4>
-              </div>
-              <div class="info-perfil">
-                  <img id="foto_perfil" src="" alt="">
-                  <h5 id="nombre"></h5>
+              <div class="flex-container">
+                  <div class="titulo">
+                      <h1 id="titulo_obra"></h1>
+                      <h4 id="categoria"></h4>
+                  </div>
+                  <div class="info-perfil">
+                      <img id="foto_perfil" src="" alt="">
+                      <h5 id="nombre"></h5>
+                  </div>
               </div>
           </div>
       </section>
@@ -48,7 +52,7 @@
               <div class="obra">
                   <h2>_obra</h2>
                   <div class="col">
-                      <p id="descripcion_obra"></p>
+                      <div id="descripcion_obra"></div>
                   </div>
                   <div id="fotos_obra" class="col">
                     <!-- imgs -->

@@ -4,23 +4,71 @@ import {fetchProfile} from './fetchProfile.js'
 init();
 
 async function init() {
-	insertHeaderAndFooter();
+	//insertHeaderAndFooter();
 	populate();
 }
 
 async function populate() {
 	let profileData = await fetchProfile();
 
-	let nombreEl = document.getElementById('nombre')
-	let perfilImgEl = document.getElementById('perfil-img')
-	let resumenEl = document.getElementById('resumen')
-	let tituloTesinaEl = document.getElementById('titulo-tesina')
-	let tituloObraEl = document.getElementById('titulo-obra')
+	const portadaEl = document.querySelector('.portada')
+	const tituloObraEl = document.querySelector('#titulo_obra')
+	const categoriaEl = document.querySelector('#categoria')
+	const fotoPerfilEl = document.querySelector('#foto_perfil')
+	const nombreEl = document.querySelector('#nombre')
+	const videoEl = document.querySelector('#video')
+	const descripcionEl = document.querySelector('#descripcion_obra')
+	const fotosObraEl = document.querySelector('#fotos_obra')
+	const tituloTesinaEl = document.querySelector('#titulo_tesina')
+	const linkPdfEl = document.querySelector('#link_pdf')
+	const proxObra = document.querySelector('#card-prox-obra')
 
-	nombreEl.innerText = profileData.nombre
-	perfilImgEl.src = profileData.foto_perfil
-	perfilImgEl.alt = 'Foto de perfil de ' + profileData.nombre
-	resumenEl.innerText = profileData.descripcion
-	tituloTesinaEl.innerText = profileData.titulo_tesina
+	portadaEl.style.backgroundImage = `url(${profileData.foto_portada})`
 	tituloObraEl.innerText = profileData.titulo_obra
+	categoriaEl.innerText = profileData.categoria
+	fotoPerfilEl.src = profileData.foto_perfil
+	foto_perfil.alt = `Foto de ${profileData.nombre}`
+	nombreEl.innerText = profileData.nombre
+	videoEl.innerHtml = profileData.video
+
+	// DESCRIPCION
+
+	let parrafos = profileData.descripcion_obra.split('<br>')
+	let imagenes = profileData.fotos_obra
+
+	parrafos.forEach((bloque, i) => {
+		let p = document.createElement('p');
+		p.innerText = bloque;
+		p.classList.add('descripcion-bloque')
+
+		descripcionEl.appendChild(p)
+
+		if(!imagenes[i]) return;
+
+		let img = document.createElement('img')
+		img.classList.add('obra-img')
+		img.classList.add('mobile')
+		img.src = imagenes[i].src
+		img.alt = imagenes[i].alt
+
+		descripcionEl.appendChild(img)
+	});
+
+	imagenes.forEach((imagen, i) => {
+		let img = document.createElement('img')
+		img.classList.add('obra-img')
+		img.src = imagen.src
+		img.alt = imagen.alt
+
+		fotos_obra.appendChild(img)
+		if(imagenes.length < parrafos.length) return
+		img.classList.add('mobile')
+		descripcionEl.appendChild(img)
+	});
+
+
+	// FIN DESCRIPCION
+
+	tituloTesinaEl.innerHtml = profileData.titulo_tesina
+	link_pdf.href = profileData.pdf
 }
