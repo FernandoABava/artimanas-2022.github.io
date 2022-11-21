@@ -1,0 +1,50 @@
+footer {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+.footerContainer {
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    border-top: 2px solid gray;
+    padding: 2rem 0;
+}
+.footerCol1, .footerCol2 {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .socialMedia  {
+    display: flex;
+}
+footer .taller5 {
+    margin: 0 1rem
+}
+.socialMediaLogo {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 1rem
+}
+@media (max-width: 768px) {
+    .footerContainer {
+        flex-direction: column-reverse;
+        width: 90%;
+        align-items: center;
+    }
+    .footerCol1, .footerCol2 {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .institutional {
+        max-width: 100%;
+        margin-top: 3rem;
+    }
+    footer .socialMedia {
+        margin: 1.5rem 0
+    }
+    footer .taller5 {
+        margin: 1.5rem 0
+    }
+}
