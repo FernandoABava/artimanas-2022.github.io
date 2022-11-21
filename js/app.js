@@ -15,7 +15,7 @@ async function init(event) {
 	// insertHeaderAndFooter();
 	target.scrollIntoView();
 
-	const cardTemplate = await fetchTemplate('../componentes/card-obra/card-obra.html')
+	const cardTemplate = await fetchTemplate('./componentes/card-obra/card-obra.html')
 
 	const profileList = await fetchProfileList();
 	const listEl = document.getElementById('lista-perfiles')
