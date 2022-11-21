@@ -4,7 +4,7 @@ async function fetchProfile() {
 	console.log(profileID);
 
 	try {
-		const response = await fetch('../data/perfiles.json')
+		const response = await fetch('./data/perfiles.json')
 		const json = await response.json()
 		return json.perfiles.find(item => item.id == profileID)
 	} catch(err){
@@ -15,7 +15,7 @@ async function fetchProfile() {
 
 async function fetchProfileList() {
 	try {
-		const response = await fetch('../data/perfiles.json')
+		const response = await fetch('./data/perfiles.json')
 		const json = await response.json()
 		return sortCategoria(json)
 	} catch(err){
