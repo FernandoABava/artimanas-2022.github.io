@@ -76,6 +76,58 @@
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/unNxndpSf6U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
 		"pdf":"./data/marcialgutierrez/investigacion.pdf"
+	},
+	{
+		"id":"tomasgarceron",
+		"nombre":"Tomás Garcerón",
+		"titulo_obra":"Continuidad de realidades",
+		"titulo_tesina":"La realidad aumentada y su relación con el entorno",
+		"descripcion_obra":"\"Continuidad de realidades\" consiste en un cuadro doble y colgante, que está compuesto por un marco dorado con detalles decorativos de ambos lados. Sobre él se exhibe un escrito en un papel antiguo y desgastado con ornamentas en los bordes. <br>Al ser doble y estar colgado el cuadro presenta un lado frontal donde se puede leer el escrito y uno posterior donde el contenido es el mismo pero de forma espejada. El escrito trata el tema de interfaces inmersivas de realidad aumentada y el espacio continuo de realidades. <br>Sobre la parte inferior del papel se encuentra un código Qr que permite a los usuarios descargar una aplicación para poder visualizar la parte virtual y así completar la obra. <br>Con la aplicación desde su dispositivo móvil, los usuarios al escanear el cuadro completo, podrán ver los elementos virtuales que se aumentan sobre este. El marco deja de ser parte de un cuadro para transformarse en un portal hacia otro escenario.",
+		"categoria":"realidad aumentada",
+		"foto_perfil":"./data/tomasgarceron/perfil.png",
+		"foto_portada":"./data/tomasgarceron/portada.jpg",
+		"fotos_obra":[
+			{
+				"alt":"-",
+				"src":"./data/tomasgarceron/img_obra_1.jpg"
+			},
+			{
+				"alt":"-",
+				"src":"./data/tomasgarceron/img_obra_2.jpg"
+			},
+			{
+				"alt":"-",
+				"src":"./data/tomasgarceron/img_obra_3.jpg"
+			}
+		],
+		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/unNxndpSf6U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"pdf":"./data/tomasgarceron/investigacion.pdf"
+	},
+	{
+		"id":"cinbasualdo",
+		"nombre":"Cinthia Basualdo",
+		"titulo_obra":"Fragmentos",
+		"titulo_tesina":"La realidad aumentada y su relación con el entorno",
+		"descripcion_obra":"\"Fragmentos\" es una instalación interactiva que refleja cómo las identidades pueden fragmentarse según las herramientas de los dispositivos que actúan de mediadores para la representación y cómo éstas construyen y determinan la identidad social. <br>Está conformada por un tótem que contiene un lector de huella digital mediante el cual los usuarios pueden registrarse y obtener un ticket QR de su identidad. <br>Por otro lado, la obra se compone de un panel general subdividido en nueve partes con espejos en el centro de cada una de ellas. Los usuarios pueden interactuar con dicho panel por medio de un lector QR que el panel trae incorporado, el cual traduce la identidad de las personas en una matriz de colores que se muestra a través de iluminación led. <br>La suma de las interacciones genera una secuencia de todas las identidades que se fueron registrando en dicho panel, visualizándose de este modo la identidad social del grupo.",
+		"categoria":"arte visual",
+		"foto_perfil":"./data/cinbasualdo/perfil.png",
+		"foto_portada":"./data/cinbasualdo/portada.jpg",
+		"fotos_obra":[
+			{
+				"alt":"-",
+				"src":"./data/cinbasualdo/img_obra_1.jpg"
+			},
+			{
+				"alt":"-",
+				"src":"./data/cinbasualdo/img_obra_2.jpg"
+			},
+			{
+				"alt":"-",
+				"src":"./data/cinbasualdo/img_obra_3.jpg"
+			}
+		],
+		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/unNxndpSf6U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"pdf":"./data/cinbasualdo/investigacion.pdf"
 	}
 ]
 }

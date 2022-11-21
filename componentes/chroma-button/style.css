@@ -22,6 +22,20 @@
 	left: 0.3em;
 }
 
+.chroma-container:active .chroma.cyan,
+.chroma-container:focus .chroma.cyan,
+.chroma-container:hover .chroma.cyan {
+	top: 0.6em;
+	left: 0.6em;
+}
+
+.chroma-container:active .chroma.yellow,
+.chroma-container:focus .chroma.yellow,
+.chroma-container:hover .chroma.yellow {
+	top: -0.6em;
+	left: -0.6em;
+}
+
 @media screen and (max-width: 1200px){
 	.chroma-container .chroma.red {
 		top: 0.3em;
@@ -54,6 +68,16 @@
 }
 .chroma.blue {
 	background-color: #0000F0;
+}
+
+.chroma.cyan {
+	background-color: #00F0F0;
+}
+.chroma.magenta {
+	background-color: #F000F0;
+}
+.chroma.yellow {
+	background-color: #F0F000;
 }
 
 .chroma-button {

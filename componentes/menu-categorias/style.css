@@ -17,10 +17,11 @@
 	cursor:pointer;
 }
 .listacat span {
-	 visibility: hidden; 
+	visibility: hidden;
 	opacity:0;
 	font-weight: bold;
 	transition:visibility 0s 0.75s, opacity 0.5s linear;
+	height: max-content;
 }
 .listacat .itemlista {
 	align-items: center;
@@ -33,17 +34,31 @@
 	flex-direction: column;
 	justify-content: center;
 	margin-top: -74px;
-	position: fixed;
+	/* position: fixed; */
+
+	width: fit-content;
+
+	position: sticky;
+	align-self: flex-start;
+	top:16px;
+	/* bottom:-32px; */
+
+	color: #070707;
+
+	margin-top: 16px;
 }
 .cuadradito {
 	width: 8px;
 	height: 8px;
 	border: 1px solid black;
-	left: 35%;
+	left: 80%;
 	position: absolute;
 	margin-left: 0;
 	transition: margin-left 2s;
 	cursor: pointer;
+	float: right;
+	padding: 0%;
+	margin: 0%;
 }
 .cuadradito:hover{
 	background-color:black;
@@ -55,12 +70,12 @@
 .cuadradito.active{
 	background-color: black;
 	left:80%;
-	margin-left: 20px;
-	transition: margin-left 2s;
+	/* margin-left: 2px; */
+	/* transition: margin-left 0.6666s ease-out; */
 }
  .itemnombre.active{
 	visibility: visible;
-	transition:opacity 1s linear;
+	transition: all 0.6666s ease-out;
 	opacity: 1;
 }
 #realidadaumentada,#artevisual,#videojuegos {

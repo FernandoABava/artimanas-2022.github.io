@@ -19,6 +19,7 @@
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/artimanas-grid.css">
+        <link rel="stylesheet" href="css/card.overwrite.css">
 
         <!-- JS
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -27,20 +28,19 @@
     </head>
 
 
-    <body id="body">
-            <main class="ar-container landing-container bg-black">
+    <body id="body" style="background-color: #F0F0F0">
+        <section style="background-color: #070707">
+            <div class="ar-container landing-container">
 
                 <header class="header-grid-container ar-col-12">
                     <a href="#" style="text-decoration:none; mix-blend-mode: difference;">
                         <div class="header">
                             <svg width="24" height="28" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.10349 27.1442C7.3834 27.1442 5.84181 26.8196 4.47872 26.1705C3.11563 25.489 2.02841 24.5803 1.21704 23.4444C0.405681 22.3085 0 21.0427 0 19.6472C0 17.3429 0.924954 15.5255 2.77486 14.1948C4.65722 12.8642 7.12377 11.9555 10.1745 11.4686L16.5518 10.5437V9.66742C16.5518 8.40169 16.2597 7.42806 15.6755 6.74651C15.0913 6.06497 14.069 5.7242 12.6086 5.7242C11.5376 5.7242 10.6775 5.93515 10.0284 6.35706C9.41181 6.77897 8.92499 7.33069 8.56799 8.01224C8.30836 8.43415 7.9189 8.6451 7.39963 8.6451H2.77486C2.41786 8.6451 2.142 8.54774 1.94727 8.35301C1.75254 8.12583 1.67141 7.86619 1.70386 7.5741C1.70386 7.02238 1.91482 6.37329 2.33673 5.62683C2.75863 4.88038 3.40772 4.15015 4.284 3.43615C5.16027 2.6897 6.27995 2.07306 7.64304 1.58624C9.03858 1.09943 10.71 0.856018 12.6573 0.856018C14.7019 0.856018 16.4544 1.09943 17.9149 1.58624C19.3753 2.07306 20.5437 2.75461 21.42 3.63088C22.3287 4.50715 22.9778 5.52947 23.3673 6.69783C23.7892 7.83374 24.0001 9.06701 24.0001 10.3976V25.4403C24.0001 25.7973 23.8865 26.0894 23.6593 26.3166C23.4322 26.5438 23.1563 26.6574 22.8318 26.6574H18.0123C17.6877 26.6574 17.4118 26.5438 17.1847 26.3166C16.9575 26.0894 16.8439 25.7973 16.8439 25.4403V23.6391C16.422 24.2557 15.854 24.8399 15.14 25.3916C14.426 25.9109 13.566 26.3328 12.5599 26.6574C11.5863 26.9819 10.4341 27.1442 9.10349 27.1442ZM11.0508 22.0813C12.1218 22.0813 13.0792 21.8541 13.923 21.3997C14.7668 20.9454 15.4321 20.2476 15.9189 19.3064C16.4058 18.3652 16.6492 17.1806 16.6492 15.7526V14.9251L12.1218 15.6553C10.4017 15.9474 9.13595 16.3855 8.32458 16.9697C7.51322 17.5539 7.10754 18.2679 7.10754 19.1117C7.10754 19.7283 7.28604 20.2638 7.64304 20.7182C8.03249 21.1401 8.51931 21.4809 9.10349 21.7405C9.72013 21.9677 10.3692 22.0813 11.0508 22.0813Z" fill="#F0F0F0"/>
+                                <path d="M9.10349 27.1442C7.3834 27.1442 5.84181 26.8196 4.47872 26.1705C3.11563 25.489 2.02841 24.5803 1.21704 23.4444C0.405681 22.3085 0 21.0427 0 19.6472C0 17.3429 0.924954 15.5255 2.77486 14.1948C4.65722 12.8642 7.12377 11.9555 10.1745 11.4686L16.5518 10.5437V9.66742C16.5518 8.40169 16.2597 7.42806 15.6755 6.74651C15.0913 6.06497 14.069 5.7242 12.6086 5.7242C11.5376 5.7242 10.6775 5.93515 10.0284 6.35706C9.41181 6.77897 8.92499 7.33069 8.56799 8.01224C8.30836 8.43415 7.9189 8.6451 7.39963 8.6451H2.77486C2.41786 8.6451 2.142 8.54774 1.94727 8.35301C1.75254 8.12583 1.67141 7.86619 1.70386 7.5741C1.70386 7.02238 1.91482 6.37329 2.33673 5.62683C2.75863 4.88038 3.40772 4.15015 4.284 3.43615C5.16027 2.6897 6.27995 2.07306 7.64304 1.58624C9.03858 1.09943 10.71 0.856018 12.6573 0.856018C14.7019 0.856018 16.4544 1.09943 17.9149 1.58624C19.3753 2.07306 20.5437 2.75461 21.42 3.63088C22.3287 4.50715 22.9778 5.52947 23.3673 6.69783C23.7892 7.83374 24.0001 9.06701 24.0001 10.3976V25.4403C24.0001 25.7973 23.8865 26.0894 23.6593 26.3166C23.4322 26.5438 23.1563 26.6574 22.8318 26.6574H18.0123C17.6877 26.6574 17.4118 26.5438 17.1847 26.3166C16.9575 26.0894 16.8439 25.7973 16.8439 25.4403V23.6391C16.422 24.2557 15.854 24.8399 15.14 25.3916C14.426 25.9109 13.566 26.3328 12.5599 26.6574C11.5863 26.9819 10.4341 27.1442 9.10349 27.1442ZM11.0508 22.0813C12.1218 22.0813 13.0792 21.8541 13.923 21.3997C14.7668 20.9454 15.4321 20.2476 15.9189 19.3064C16.4058 18.3652 16.6492 17.1806 16.6492 15.7526V14.9251L12.1218 15.6553C10.4017 15.9474 9.13595 16.3855 8.32458 16.9697C7.51322 17.5539 7.10754 18.2679 7.10754 19.1117C7.10754 19.7283 7.28604 20.2638 7.64304 20.7182C8.03249 21.1401 8.51931 21.4809 9.10349 21.7405C9.72013 21.9677 10.3692 22.0813 11.0508 22.0813Z" fill="#F0F0F0"/>
                             </svg>
                         </div>
                     </a>
                 </header>
-
-                </div>
 
                 <div class="grid-count-container">
                     <div id="counter" class="landing-count">
@@ -79,174 +79,66 @@
                     <p class="description-line light"> Facultad de Artes - Sede Fonseca / <a href="https://goo.gl/maps/Ra6no8WKH73RSC2r5" target="_blank" class="enlace">Ver Ubicación</a></p>
                     <br>
                 </div>
-            </main>
+            </div>
+        </section>
 
         <!-- PARTE CON OBRAS -->
-        <div class="container-fluid">
-            <!-- FONDO -->
-            <div class="container">
-                <div id="fondo-textual" class="d-flex  text-center d-flex flex-column w-100">
-                    <h1 id="texto-borde">obras</h1>
+        <section>
+            <div id="fondo-textual" class="text-center w-100">
+                <h1 id="texto-borde">obras</h1>
             </div>
 
-            <!-- contenedor de filas de cartas -->
-            <div class="container">
+            <div class="container-fluid" style="padding-0">
+                <!-- FONDO -->
+                <div class="container">
+
+                    <!-- contenedor de filas de cartas -->
+                    <div class="container">
 
 
-            <div class="col-12">
-                <div class="row">
+                        <div class="col-12">
+                            <div class="row">
 
-                <!-- COLUMNA 0 (categorias) -->
-                <div class="categorias col-1">
-                    <div class="d-flex justify-content-around flex-column vh-100 listacat">
-                        <div class="row itemlista">
-                            <span class="itemnombre">arte electronico</span>
-                            <div class="cuadradito">
+                                <!-- COLUMNA 0 (categorias) -->
+                                <div class="categorias col-1">
+                                    <div class="d-flex justify-content-around flex-column vh-100 listacat">
+                                        <div class="itemlista">
+                                            <span class="itemnombre">arte electronico</span>
+                                            <div class="cuadradito">
+                                            </div>
+                                        </div>
+                                        <div class="itemlista">
+                                            <span class="itemnombre">realidad aumentada</span>
+                                            <div class="cuadradito">
+                                            </div>
+                                        </div>
+                                        <div class="itemlista">
+                                            <span class="itemnombre">arte visual</span>
+                                            <div class="cuadradito">
+                                            </div>
+                                        </div>
+                                        <div class="itemlista">
+                                            <span class="itemnombre">videojuegos</span>
+                                            <div class="cuadradito">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col mt-5">
+                                    <div id="lista-perfiles" class="row row-cols-1 row-cols-md-2 g-5">
+                                        <!-- CARTAS -->
+                                    </div>
+                                </div>
+
+
                             </div>
                         </div>
-                        <div class="row itemlista">
-                            <span class="itemnombre">realidad aumentada</span>
-                            <div class="cuadradito">
-                            </div>
-                        </div>
-                        <div class="row itemlista">
-                            <span class="itemnombre">arte visual</span>
-                            <div class="cuadradito">
-                            </div>
-                        </div>
-                        <div class="row itemlista">
-                            <span class="itemnombre">videojuegos</span>
-                            <div class="cuadradito">
-                            </div>
-                        </div>
+
                     </div>
                 </div>
+        </section>
 
-                <div class="col mt-5">
-                    <div class="row row-cols-1 row-cols-md-2 g-5">
-                        <div class="col">
-                            <!-- Carta inicio -->
-                            <div class="card   my-5" id="realidadaumentada" style="width: 350px;"> <!-- Carta de obra-->
-                                <div class=" position-relative d-inline-block w-100">
-                                    <div class="card-header w-75 position-absolute bg-light">
-                                        <p class="card-autor">por Fulanito Mengano</p>
-                                    </div>
-                                    <img src="https://picsum.photos/350/400" alt="Foto de obra">
-                                </div>
-                                <div class="card-body pt-0">
-                                    <h5 class="card-title "><a class="carta-obra" href="obra.html">Titulo de Obra 1</a> </h5>
-                                    <div class="border-top border-light w-25"> </div>
-                                    <div>
-                                        <p>categoria de la obra</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Carta fin -->
-                        </div>
-                        <div class="col">
-                            <!-- Carta inicio -->
-                            <div class="card my-5" id="artevisual" style="width: 350px;">
-                                <div class=" position-relative d-inline-block w-100">
-                                    <div class="card-header w-75 position-absolute bg-light">
-                                        <p class="card-autor">por Fulanito Mengano</p>
-                                    </div>
-                                    <img src="https://picsum.photos/350/400" alt="Foto de obra">
-                                </div>
-                                <div class="card-body pt-0">
-                                    <h5 class="card-title "><a class="carta-obra" href="obra.html">Titulo de Obra 2</a> </h5>
-                                    <div class="border-top border-light w-25"> </div>
-                                    <div>
-                                        <p>categoria de la obra</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Carta fin -->
-                        </div>
-                        <div class="col">
-                            <!-- Carta inicio -->
-                            <div class="card   my-5" id="videojuegos" style="width: 350px;"> <!-- Carta de obra-->
-                                <div class=" position-relative d-inline-block w-100">
-                                    <div class="card-header w-75 position-absolute bg-light">
-                                        <p class="card-autor">por Fulanito Mengano</p>
-                                    </div>
-                                    <img src="https://picsum.photos/350/400" alt="Foto de obra">
-                                </div>
-                                <div class="card-body pt-0">
-                                    <h5 class="card-title "><a class="carta-obra" href="obra.html">Titulo de Obra 3</a> </h5>
-                                    <div class="border-top border-light w-25"> </div>
-                                    <div>
-                                        <p>categoria de la obra</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Carta fin -->
-                        </div>
-                        <div class="col">
-                            <!-- Carta inicio -->
-                            <div class="card   my-5" id="realidadaumentada" style="width: 350px;">
-                                <div class=" position-relative d-inline-block w-100">
-                                    <div class="card-header w-75 position-absolute bg-light">
-                                        <p class="card-autor">por Fulanito Mengano</p>
-                                    </div>
-                                    <img src="https://picsum.photos/350/400" alt="Foto de obra">
-                                </div>
-                                <div class="card-body pt-0">
-                                    <h5 class="card-title "><a class="carta-obra" href="obra.html">Titulo de Obra 4</a> </h5>
-                                    <div class="border-top border-light w-25"> </div>
-                                    <div>
-                                        <p>categoria de la obra</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Carta fin -->
-                        </div>
-                        <div class="col">
-                            <!-- Carta inicio -->
-                            <div class="card   my-5" id="realidadaumentada" style="width: 350px;">
-                            <div class=" position-relative d-inline-block w-100">
-                                <div class="card-header w-75 position-absolute bg-light">
-                                    <p class="card-autor">por Fulanito Mengano</p>
-                                </div>
-                                <img src="https://picsum.photos/350/400" alt="Foto de obra">
-                            </div>
-                            <div class="card-body pt-0">
-                                <h5 class="card-title "><a class="carta-obra" href="obra.html">Titulo de Obra 5</a> </h5>
-                                <div class="border-top border-light w-25"> </div>
-                                <div>
-                                    <p>categoria de la obra</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Carta fin -->
-                        </div>
-                        <div class="col">
-                            <!-- Carta inicio -->
-                            <div class="card   my-5" id="realidadaumentada" style="width: 350px;">
-                            <div class=" position-relative d-inline-block w-100">
-                                <div class="card-header w-75 position-absolute bg-light">
-                                    <p class="card-autor">por Fulanito Mengano</p>
-                                </div>
-                                <img src="https://picsum.photos/350/400" alt="Foto de obra">
-                            </div>
-                            <div class="card-body pt-0">
-                                <h5 class="card-title "><a class="carta-obra" href="obra.html">Titulo de Obra 6</a> </h5>
-                                <div class="border-top border-light w-25"> </div>
-                                <div>
-                                    <p>categoria de la obra</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Carta fin -->
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-            </div>
-
-            </div>
-        </div>
     <!-- PIE DE PAGINA FOOTER -->
         <footer>
             <div class="footer m-5 text-bg-light row d-flex justify-content-between">
@@ -260,9 +152,9 @@
                         </div>
                         <div class="col-auto  d-flex align-items-center">
                             <div class="row">
-                                    <div class="col-auto"> <a href="https://www.instagram.com/festivalartimanas/" target="_blank">  <i class="bi bi-instagram sobre-m" style="color: black;"></i></a> </div>
-                                    <div class="col-auto"> <a href="https://www.tiktok.com/@festivalartimanas?_t=8WG80WYDrlO&_r=1" target="_blank">  <i class="bi bi-tiktok sobre-y" style="color: black;"></i></a> </div>
-                                    <div class="col-auto"> <a href="https://www.facebook.com/festival.de.artimanas/" target="_blank">  <i style="color: black;" class="bi bi-facebook sobre-c" ></i></a> </div>
+                                    <div class="col-auto"> <a href="https://www.instagram.com/festivalartimanas/" target="_blank">  <i class="bi bi-instagram" style="color: black;"></i></a> </div>
+                                    <div class="col-auto"> <a href="https://www.tiktok.com/@festivalartimanas?_t=8WG80WYDrlO&_r=1" target="_blank">  <i class="bi bi-tiktok" style="color: black;"></i></a> </div>
+                                    <div class="col-auto"> <a href="https://www.facebook.com/festival.de.artimanas/" target="_blank">  <i style="color: black;" class="bi bi-facebook" ></i></a> </div>
                                 </div>
                             </div>
                         </div>
@@ -275,7 +167,7 @@
         <!-- JS App -->
         <script type="module" src="js/app.js"></script>
         <!-- Bootstrap JS -->
-        <script src="js/bootstrap.bundle.js"></script>
+        <script src="js/bootstrap/bootstrap.bundle.js"></script>
 
     </body>
 </html>
