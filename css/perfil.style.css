@@ -35,6 +35,41 @@ h2 { font-size: 2rem; }
 }
 
 /*********************
+**		HEADER		**
+**********************/
+
+.header {
+	position: absolute;
+	top: 0;
+	background-color: #0000;
+
+	width: 100%;
+	max-width: 1200px;
+	display: block;
+	transform: translateX(-50%);
+	left: 50%;
+}
+
+@media screen and (min-width: 1200px){
+	.header {
+		position: fixed;
+	}
+}
+
+
+.header a {
+	text-decoration: none;
+	display: block;
+	float: left;
+}
+
+.header img {
+	width: 48px;
+	clip-path: circle(50%);
+	margin: 20px 20px;
+}
+
+/*********************
 **		PORTADA		**
 **********************/
 

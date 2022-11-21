@@ -1,11 +1,7 @@
 import insertHeaderAndFooter from './insertHeaderAndFooter.js'
 import {fetchProfileList} from './fetchProfile.js'
-<<<<<<< HEAD
 import setCounterFill from './counterFill.js'
 
-=======
-import obras from '../data/obras.json' assert {type: "json"}
->>>>>>> a36bc27c9c0290a14259e67c41ad3b90e2cd54ae
 const urlPerfiles = 'perfil.html'
 console.log(obras)
 console.log("ARTIMAÑAS :D")
@@ -24,10 +20,7 @@ async function init(event) {
 	// 	li.append(a)
 	// 	listEl.append(li)
 	// });
-<<<<<<< HEAD
 	setCounterFill()
-=======
->>>>>>> a36bc27c9c0290a14259e67c41ad3b90e2cd54ae
 }
 
 const arteElectronico = document.getElementById("arteelectronico");
@@ -41,7 +34,7 @@ const cuadradito = Array.from(document.getElementsByClassName("cuadradito"));
 
 cuadradito.forEach((item, i) => item.addEventListener('click', () => {  //añado evento onClick para que scrollee al hacer click en categoria.
 	categorias[i].scrollIntoView({ behavior: 'smooth' });
-})); 
+}));
 
 document.addEventListener('scroll', () => { // añado evento onScroll
 
@@ -78,4 +71,3 @@ document.addEventListener('scroll', () => { // añado evento onScroll
 		}
 	}
 });
-
