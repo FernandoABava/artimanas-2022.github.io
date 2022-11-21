@@ -37,6 +37,7 @@ img {
 .landing-container {
 	width: 100%;
 	height: 100%;
+	background-color: black;
 }
 
 .landing-title {
@@ -445,11 +446,6 @@ p{
 @import url("./custom-defaults.css");
 @import url("../componentes/chroma-button/style.css");
 
-#body {
-	color: #F0F0F0;
-	background-color: #070707;
-}
-
 /*********************
 **		HEADER		**
 **********************/
@@ -687,4 +683,12 @@ p{
 
 .logo-taller{
 		max-height: 80px;
+}
+
+.card{
+	background-color: black;
+}
+
+.card-autor{
+	color: black;
 }
