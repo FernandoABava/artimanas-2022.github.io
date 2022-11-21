@@ -494,6 +494,10 @@
 @import url("./custom-defaults.css");
 @import url("../componentes/chroma-button/style.css");
 
+html{
+	scroll-behavior: smooth;
+}
+
 /*********************
 **		HEADER		**
 **********************/
@@ -572,19 +576,6 @@
 	}
 }
 
-.landing-title span {
-	position: absolute;
-	width: 100%;
-	top: 0;
-	left: 0;
-
-	-webkit-text-stroke: 1px #F0F0F0;
-	color: #F0F0F0;
-
-	/*VALOR A MODIFICAR PARA EL FILL*/
-	clip-path: inset(100% 0 0 0);
-	transition: all 2s ease-in-out;
-}
 
 /*********************
 **		CONTADOR	**

@@ -4,6 +4,8 @@ import setCounterFill from './counterFill.js'
 import fetchTemplate from './fetchTemplate.js'
 import initStepper from './stepper.js'
 
+const target = document.querySelector('#seccion-obras');
+
 const urlPerfiles = 'perfil.html'
 // console.log(obras)
 // console.log("ARTIMAÑAS :D")
@@ -11,6 +13,7 @@ init();
 
 async function init(event) {
 	// insertHeaderAndFooter();
+	target.scrollIntoView();
 
 	const cardTemplate = await fetchTemplate('../componentes/card-obra/card-obra.html')
 
@@ -40,3 +43,6 @@ async function init(event) {
 	setCounterFill()
 	initStepper();
 }
+
+
+
