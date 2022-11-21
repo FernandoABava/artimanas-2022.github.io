@@ -400,10 +400,6 @@
 	color: greenyellow;
 }
 
-p{
-	font-size: 18px;
-}
-
 .centrar-vertical > p{
 	display: flex;
 	margin: auto;

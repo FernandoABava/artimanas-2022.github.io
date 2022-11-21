@@ -26,25 +26,56 @@
 		"pdf":"./data/lauvaldez/investigacion.pdf"
 	},
 	{
-		"id":"emmet",
-		"nombre":"Emmet",
-		"titulo_tesina":"Investigación sobre un coso multimedial",
-		"titulo_obra":"Un coso multimedial",
-		"descripcion_obra":"No sé, pero funciona",
-		"categoria":"Arte electrónico",
-		"foto_perfil":"./data/imgs/Emmet/perfil.jpg",
-		"foto_portada":{
-			"alt":"string",
-			"src":"string (data/emmet/portada.png)"
-		},
+		"id":"manuelmedina",
+		"nombre":"Manuel Medina",
+		"titulo_obra":"PIDCA",
+		"titulo_tesina":"PIDCA (Proyecto de Ilustración Digital y Concept Art)",
+		"descripcion_obra":"PIDCA, Proyecto de Ilustración Digital y Concept Art, es una instalación interactiva donde el usuario ilustra digitalmente<br>Se le da a elegir entre diez ilustraciones a medio hacer, y la persona deberá terminar de contar la historia, con total libertad creativa.<br>Al finalizarla, se puede visualizar en una galería junto a las demás obras previamente hechas, dando una sensación de muestra colectiva.<br>Esta obra nos ayuda a soltar la mano, animarnos a dibujar y dejar fluir nuestra creatividad para transmitir visualmente una idea.<br>Acompañada de una tableta gráfica, botones y perillas, es una herramienta perfecta para la introducción al mundo del dibujo y la ilustración.",
+		"categoria":"videojuegos",
+		"foto_perfil":"./data/manuelmedina/perfil.png",
+		"foto_portada":"./data/manuelmedina/portada.jpg",
 		"fotos_obra":[
 			{
-				"alt":"string",
-				"src":"string (data/imgs/nombre/....png)"
+				"alt":"Una fotografía de la instalación",
+				"src":"./data/manuelmedina/img_obra_1.jpg"
+			},
+			{
+				"alt":"Estudiantes probando el proyeto",
+				"src":"./data/manuelmedina/img_obra_2.jpg"
+			},
+			{
+				"alt":"Una imagen de la galería, con varios dibujos",
+				"src":"./data/manuelmedina/img_obra_3.png"
 			}
 		],
-		"video":"string (data/videos/nombre/....mp4)",
-		"pdf":"string (data/pdfs/nombre/....pdf)"
+		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/unNxndpSf6U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"pdf":"./data/manuelmedina/investigacion.pdf"
+	},
+	{
+		"id":"marcialgutierrez",
+		"nombre":"Marcial Gutierrez",
+		"titulo_obra":"El día a día",
+		"titulo_tesina":"Los videojuegos como medio de concientización para la salud mental",
+		"descripcion_obra":"\"El día a día\" es una obra interactiva para concientizar el trastorno de ansiedad generalizada. En ella narra de manera visual y sin diálogos cómo es un día cotidiano de alguien que padece dicho desorden.<br>Está formada por una pantalla y una interfaz física con botones grande. El usuario deberá pulsarlos según lo indique la pantalla para seguir avanzando en los niveles.<br>La intención de la obra es crear una empatía sobre el personaje y, a su vez, intentar producir ansiedad a quien esté jugando con la obra.<br>No es recomendable para personas que sufren de ansiedad o problemas cardíacos.",
+		"categoria":"videojuegos",
+		"foto_perfil":"./data/marcialgutierrez/perfil.png",
+		"foto_portada":"./data/marcialgutierrez/portada.jpg",
+		"fotos_obra":[
+			{
+				"alt":"-",
+				"src":"./data/marcialgutierrez/img_obra_1.png"
+			},
+			{
+				"alt":"-",
+				"src":"./data/marcialgutierrez/img_obra_2.png"
+			},
+			{
+				"alt":"-",
+				"src":"./data/marcialgutierrez/img_obra_3.png"
+			}
+		],
+		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/unNxndpSf6U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"pdf":"./data/marcialgutierrez/investigacion.pdf"
 	}
 ]
 }

@@ -93,6 +93,7 @@ h2 { font-size: 2rem; }
 	margin: 0 auto;
 	font-weight: 600;
 	font-size: 1em;
+	text-transform: lowercase;
 }
 
 /*********************
