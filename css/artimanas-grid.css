@@ -1,12 +1,15 @@
 .ar-container {
+	background-color: black;
 	display: grid;
 	gap: 16px;
 	padding: 16px;
 	grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
 	grid-template-rows: auto auto auto 1fr;
+
 }
 @media screen and (min-width: 1200px){
 	.ar-container {
+		background-color: black;
 		display: grid;
 		gap: 32px;
 		padding: 32px;

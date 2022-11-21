@@ -3,9 +3,9 @@ import {fetchProfileList} from './fetchProfile.js'
 import setCounterFill from './counterFill.js'
 
 const urlPerfiles = 'perfil.html'
-console.log(obras)
-console.log("ARTIMAÑAS :D")
-init();
+// console.log(obras)
+// console.log("ARTIMAÑAS :D")
+// init();
 
 async function init(event) {
 	// insertHeaderAndFooter();
