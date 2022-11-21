@@ -706,14 +706,30 @@ html{
 	transition: all 0.5s ease-in-out;
 }
 
-.logo-taller{
-		max-height: 80px;
-}
-
 .card{
 	/* background-color: black; */
 }
 
 .card-autor{
 	color: black;
+}
+
+.links-institucionales
+{
+
+}
+
+.links-institucionales a{
+	font-size: 13px;
+	font-weight: bold;
+}
+
+footer img {
+	height: 70px;
+	width: auto;
+}
+
+footer{
+	margin-top: 64px;
+	margin-bottom: 48px;
 }
