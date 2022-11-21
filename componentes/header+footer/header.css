@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+.titularContainer {
+    width: 100%;
+    background-image: url(./assets/int.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.titularContainer .titular {
+    top: 0;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.titularMobile {
+    display: none;
+    top: 0;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+@media (max-width: 768px) {
+    .titular {
+        display: none;
+    }
+    .titularMobile {
+        display: block;
+    }
+    .titularContainer  {
+        background-image: url(./assets/int-mobile.png);
+    }
+}
