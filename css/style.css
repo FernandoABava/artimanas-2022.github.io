@@ -28,8 +28,6 @@
 	text-decoration: none;
 }
 
-
-
 /*********************
 **	TÍTULO LANDING	**
 **********************/
@@ -496,24 +494,6 @@
 
 html{
 	scroll-behavior: smooth;
-}
-
-/*********************
-**		HEADER		**
-**********************/
-.header-grid-container {
-	grid-row-start: 1;
-}
-
-.header {
-	width: 72px;
-	height: 72px;
-	font-size: 64px;
-	text-align: center;
-	font-family: "Rubik", Helvetica, Arial, sans-serif;
-	font-weight: 500;
-	color: #F0F0F0;
-	text-decoration: none;
 }
 
 /*********************

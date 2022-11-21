@@ -39,7 +39,7 @@ h2 { font-size: 2rem; }
 **********************/
 
 .header {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	background-color: #0000;
 
@@ -53,6 +53,7 @@ h2 { font-size: 2rem; }
 @media screen and (min-width: 1200px){
 	.header {
 		position: fixed;
+		border-radius: 0%;
 	}
 }
 
@@ -65,8 +66,15 @@ h2 { font-size: 2rem; }
 
 .header img {
 	width: 48px;
-	clip-path: circle(50%);
+	/*clip-path: circle(50%);*/
 	margin: 20px 20px;
+}
+
+.logo-a{
+	position: fixed; 
+	padding-left: 7%; 
+	padding-top: 5%; 
+	mix-blend-mode: difference;
 }
 
 /*********************
