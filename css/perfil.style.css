@@ -261,6 +261,7 @@ h2 { font-size: 2rem; margin: .83em auto}
 	float: right;
 	position: relative;
 	top: 1rem;
+	width: 100%;
 }
 
 #card-prox-obra .card.chroma-container {
