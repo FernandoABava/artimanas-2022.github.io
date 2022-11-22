@@ -22,8 +22,9 @@
 				"src":"./data/lauvaldez/img_obra_3.png"
 			}
 		],
-		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/unNxndpSf6U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/AbTC5a5uT1o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
 		"pdf":"./data/lauvaldez/investigacion.pdf"
+		
 	},
 	{
 		"id":"manuelmedina",
@@ -48,7 +49,7 @@
 				"src":"./data/manuelmedina/img_obra_3.png"
 			}
 		],
-		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/unNxndpSf6U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/tBY3Vvf83i4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
 		"pdf":"./data/manuelmedina/investigacion.pdf"
 	},
 	{
@@ -74,7 +75,7 @@
 				"src":"./data/marcialgutierrez/img_obra_3.png"
 			}
 		],
-		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/unNxndpSf6U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/nMx3nGJH6_c\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
 		"pdf":"./data/marcialgutierrez/investigacion.pdf"
 	},
 	{
@@ -100,7 +101,7 @@
 				"src":"./data/tomasgarceron/img_obra_3.jpg"
 			}
 		],
-		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/unNxndpSf6U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/xbjrJ3u3_K0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
 		"pdf":"./data/tomasgarceron/investigacion.pdf"
 	},
 	{
@@ -126,7 +127,7 @@
 				"src":"./data/cinbasualdo/img_obra_3.jpg"
 			}
 		],
-		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/unNxndpSf6U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/fdKYLJU9e58\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
 		"pdf":"./data/cinbasualdo/investigacion.pdf"
 	},
 	{
@@ -542,7 +543,7 @@
 				"src":"./data/micheldeulofeu/img_obra_3.png"
 			}
 		],
-		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/RffHM7f-iV0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
 		"pdf":"./data/micheldeulofeu/investigacion.pdf"
 	},
 	{
@@ -672,7 +673,7 @@
 				"src":"./data/alvarojuanterracciano/img_obra_3.png"
 			}
 		],
-		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/HR1neJ6xkD8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
 		"pdf":"./data/alvarojuanterracciano/investigacion.pdf"
 	},
 	{
@@ -698,7 +699,7 @@
 				"src":"./data/juancruzverna/img_obra_3.png"
 			}
 		],
-		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/7L_qjhf8Lsw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
 		"pdf":"./data/juancruzverna/investigacion.pdf"
 	},
 	{
@@ -724,7 +725,7 @@
 				"src":"./data/juanposik/img_obra_3.png"
 			}
 		],
-		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/QYN3LU6jN8U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
 		"pdf":"./data/juanposik/investigacion.pdf"
 	}
 	
