@@ -13,6 +13,10 @@ export default function setCounterFill() {
 
 	tiempoQueFalta /= artimaniasDate.getTime() - fechaDeReferencia.getTime();
 	let fill = (tiempoQueFalta) * 100.0;
+
+	fill = Math.min(100, fill);
+	fill = Math.max(0, fill);
+
 	titleSpan.style.transition = 'all 2s ease-in-out'
 	titleSpan.style.clipPath = `inset( ${fill}% 0 0 0)`
 
