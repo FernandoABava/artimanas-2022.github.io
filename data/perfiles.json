@@ -107,7 +107,7 @@
 		"id":"cinbasualdo",
 		"nombre":"Cinthia Basualdo",
 		"titulo_obra":"Fragmentos",
-		"titulo_tesina":"La realidad aumentada y su relación con el entorno",
+		"titulo_tesina":"Espejo Virtual: la influencia de las redes sociales en adolescentes para la construcción de la identidad",
 		"descripcion_obra":"\"Fragmentos\" es una instalación interactiva que refleja cómo las identidades pueden fragmentarse según las herramientas de los dispositivos que actúan de mediadores para la representación y cómo éstas construyen y determinan la identidad social. <br>Está conformada por un tótem que contiene un lector de huella digital mediante el cual los usuarios pueden registrarse y obtener un ticket QR de su identidad. <br>Por otro lado, la obra se compone de un panel general subdividido en nueve partes con espejos en el centro de cada una de ellas. Los usuarios pueden interactuar con dicho panel por medio de un lector QR que el panel trae incorporado, el cual traduce la identidad de las personas en una matriz de colores que se muestra a través de iluminación led. <br>La suma de las interacciones genera una secuencia de todas las identidades que se fueron registrando en dicho panel, visualizándose de este modo la identidad social del grupo.",
 		"categoria":"arte visual",
 		"foto_perfil":"./data/cinbasualdo/perfil.png",
