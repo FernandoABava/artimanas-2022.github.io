@@ -408,8 +408,8 @@
 				"src":"./data/angelamigone/img_obra_2.jpg"
 			},
 			{
-				"alt":"Manos sosteniendo uno de los papeles escritos. ",
-				"src":"./data/angelamigone/img_obra_3.jpg"
+				"alt":"",
+				"src":""
 			}
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/Odpox4J9X1U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
