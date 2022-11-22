@@ -128,6 +128,10 @@
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/unNxndpSf6U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
 		"pdf":"./data/cinbasualdo/investigacion.pdf"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 9e4225de11752606e6de8a4d60adf8d5b7e34b50
 	},
 	{
 		"id":"tomasconstantini",
@@ -140,6 +144,7 @@
 		"foto_portada":"./data/tomasconstantini/portada.jpg",
 		"fotos_obra":[
 			{
+<<<<<<< HEAD
 				"alt":"Una captura de pantalla donde se ve a una catapulta apuntando a la torre de castillo en un día soleado",
 				"src":"./data/tomasconstantini/img_obra_1.png"
 			},
@@ -149,6 +154,17 @@
 			},
 			{
 				"alt":"La catapulta de madera delante de la pantalla del videojuego, donde se alza la versión digital",
+=======
+				"alt":"-",
+				"src":"./data/tomasconstantini/img_obra_1.jpg"
+			},
+			{
+				"alt":"-",
+				"src":"./data/tomasconstantini/img_obra_2.jpg"
+			},
+			{
+				"alt":"-",
+>>>>>>> 9e4225de11752606e6de8a4d60adf8d5b7e34b50
 				"src":"./data/tomasconstantini/img_obra_3.jpg"
 			}
 		],
@@ -167,7 +183,11 @@
 		"fotos_obra":[
 			{
 				"alt":"Interfaz utilizada para operar el microscopio.",
+<<<<<<< HEAD
 				"src":"./data/matiasleonardi/img_obra_1.png"
+=======
+				"src":"./data/matiasleonardi/img_obra_1.jppngg"
+>>>>>>> 9e4225de11752606e6de8a4d60adf8d5b7e34b50
 			},
 			{
 				"alt":"Ecosistema donde conviven las criaturas digitales.",
@@ -419,7 +439,11 @@
 		"id":"dannaalvarez",
 		"nombre":"Danna Álvarez",
 		"titulo_obra":"POV",
+<<<<<<< HEAD
 		"titulo_tesina":"La figura del artista: estereotipos y reconfiguraciones",
+=======
+		"titulo_tesina":"La figura del artista: estereotipos y reconfiguraciones",		
+>>>>>>> 9e4225de11752606e6de8a4d60adf8d5b7e34b50
 		"descripcion_obra":"POV, o Point Of View, es una instalación que apunta a repensar las construcciones de sentido que se formulan en la experiencia artística contemporánea. La obra parte de la intención de disparar preguntas como ¿Con qué mirada vemos a los artistas? ¿Cómo se formula esa mirada? ¿Desde qué lugar nos acercamos a la experiencia artística?<br>La instalación consta de dos espacios contiguos. El primero, un espacio en donde se disponen múltiples webcams que capturan imágenes desde diferentes perspectivas para generar una composición visual a modo de autorretrato en movimiento. El segundo, desde el otro lado de la pared, un visor que posee una cámara destinada a capturar el ojo de la persona que se acerque al mismo, e integra la captura en una composición visual, fusionando las imágenes del autorretrato producido por otra persona con el ojo capturado. <br>Es a partir de esta representación que se le da forma a la idea planteada sobre las bases conceptuales de la mirada sobre los artistas.",
 		"categoria":"arte electrónico",
 		"foto_perfil":"./data/dannaalvarez/perfil.png",
@@ -471,7 +495,11 @@
 		"id":"martinbuzali",
 		"nombre":"Martin Buzali",
 		"titulo_obra":"¿Te acordás de esto?",
+<<<<<<< HEAD
 		"titulo_tesina":"Nostalgia Millennial: ¿Era mejor lo de antes o lo de ahora? ",
+=======
+		"titulo_tesina":"Nostalgia Millennial: ¿Era mejor lo de antes o lo de ahora? ",		
+>>>>>>> 9e4225de11752606e6de8a4d60adf8d5b7e34b50
 		"descripcion_obra":"¿Te acordás de esto? Es una obra que busca generar nostalgia en el usuario a partir de distintas imágenes y sonidos. El usuario podrá elegir entre distintas categorías para originar su propia nostalgia y que estas visuales sonoras le desbloqueen algún recuerdo.<br>La obra está montada sobre una máquina arcade, en la que solo podemos encontrar una palanca y un botón para la navegación e interacción del usuario.<br>La cantidad de opciones que se le brinda al usuario es muy numerosa, justamente, para que no todos los que interactúen vean siempre lo mismo, ya que todes tenemos recuerdos distintos de nuestra infancia.<br>Si bien la obra apunta a la generación millennial, las personas que hayan vivido esta época también podrán recordar cosas.",
 		"categoria":"videojuegos",
 		"foto_perfil":"./data/martinbuzali/perfil.png",
@@ -497,7 +525,11 @@
 		"id":"paulacomesana",
 		"nombre":"Paula Comesaña",
 		"titulo_obra":"Mixachrome",
+<<<<<<< HEAD
 		"titulo_tesina":"A dónde van a parar los artistas multimediales en la ciudad de La Plata",
+=======
+		"titulo_tesina":"A dónde van a parar los artistas multimediales en la ciudad de La Plata",		
+>>>>>>> 9e4225de11752606e6de8a4d60adf8d5b7e34b50
 		"descripcion_obra":"‘Mixachrome’ es una experiencia interactiva que permite generar visuales mediante  la mezcla de diapositivas analógicas.<br>A partir de una exploración de las prácticas del vjing y el videoarte, esta obra le otorga a sus interactores la posibilidad de combinar el contenido de diferentes diapositivas con el objetivo de crear una pieza visual que se compone desde premisas similares a las del collage en tiempo real.<br>En términos materiales, la obra se ve compuesta por una mesa retroiluminada que permite visualizar el contenido del film de las diferentes diapositivas como también insertarlas en la ranura donde son captadas por el sistema digital y en consecuencia, sumadas a la construcción visual que se encuentra siendo proyectada en forma instantánea. A su vez, la obra se ve acompañada por una pieza sonora que retoma el concepto del collage desde un plano sonoro.<br>‘Mixachrome’ invita a personas a participar en la construcción de visuales de una forma inmersiva y exploratoria.",
 		"categoria":"arte visual",
 		"foto_perfil":"./data/paulacomesana/perfil.png",
@@ -523,7 +555,11 @@
 		"id":"micheldeulofeu",
 		"nombre":"Michel Deulofeu",
 		"titulo_obra":"Tinta en Expansión",
+<<<<<<< HEAD
 		"titulo_tesina":"Cuerpos Ilustrados Cuerpos tatuados: La utilización del tatuaje como practica ancestral y actual en América Latina.",
+=======
+		"titulo_tesina":"Cuerpos Ilustrados Cuerpos tatuados: La utilización del tatuaje como practica ancestral y actual en América Latina.",		
+>>>>>>> 9e4225de11752606e6de8a4d60adf8d5b7e34b50
 		"descripcion_obra":"\"Tinta en Expansión\" se presenta como una obra interactiva que tiene al tatuaje y las personas como protagonistas. A partir de un cruce de realidades, en el cual se superponen los límites de la realidad física con la virtual, la obra propone un acercamiento a lo tangible y lo etéreo efímeramente.<br>Mediante la programación web sobre la Realidad Aumentada la obra permite el escaneo de diferentes tatuajes temporales en dispositivos móviles que cuenten con lector QR. De esta forma se accede a una aumentación de los diseños de manera audiovisual dándoles la posibilidad de cobrar vida <br>Esta posibilidad de jugar con las diferentes realidades sobre una práctica tan antigua como es el tatuaje presenta la idea de expandir los campos de conocimientopara lograr generar en este caso en particular un acercamiento a mi lugar de origen, el infinito Sur.",
 		"categoria":"realidad aumentada",
 		"foto_perfil":"./data/micheldeulofeu/perfil.png",
@@ -549,7 +585,11 @@
 		"id":"valentinazeltner",
 		"nombre":"Valentina Zeltner",
 		"titulo_obra":"Intangible",
+<<<<<<< HEAD
 		"titulo_tesina":"De la prohibición del abrazo al cumpleaños por Zoom",
+=======
+		"titulo_tesina":"De la prohibición del abrazo al cumpleaños por Zoom",		
+>>>>>>> 9e4225de11752606e6de8a4d60adf8d5b7e34b50
 		"descripcion_obra":"\"Intangible\" es una proyección interactiva ubicada sobre el techo en la que pueden participar hasta cuatro usuarios. Este límite se debe a que la temática es la proxemia en relación a los espacios físico y virtual, enmarcada en el contexto de la pandemia y el distanciamiento social.<br>Los usuarios antes de iniciar la experiencia deben ponerse mascarillas transparentes para poder ingresar a un espacio delimitado. Cada persona será representada por un círculo, y verán visuales abstractas que dependiendo de su interacción tendrán colores o serán acromáticas. <br>En la obra existen dos espacios: el espacio físico, donde el uso de mascarillas propone una distancia (propia del contexto de pandemia) y el virtual, que es el que se verá proyectado. <br>Aunque se busca que las personas se unan mediante la virtualidad rompiendo las distancias de lo físico, sigue habiendo una falta de tacto, por lo que esa conexión sigue siendo intangible.",
 		"categoria":"arte visual",
 		"foto_perfil":"./data/valentinazeltner/perfil.png",
@@ -575,7 +615,11 @@
 		"id":"fernandobava",
 		"nombre":"Fernando Bava",
 		"titulo_obra":"",
+<<<<<<< HEAD
 		"titulo_tesina":"",
+=======
+		"titulo_tesina":"",		
+>>>>>>> 9e4225de11752606e6de8a4d60adf8d5b7e34b50
 		"descripcion_obra":"",
 		"categoria":"arte electrónico",
 		"foto_perfil":"./data/fernandobava/perfil.png",
@@ -596,6 +640,11 @@
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
 		"pdf":"./data/fernandobava/investigacion.pdf"
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> parent of b22e4ae (cargados los perfiles y obras de 22 compas!)
+>>>>>>> 9e4225de11752606e6de8a4d60adf8d5b7e34b50
 	}
 
 ]
