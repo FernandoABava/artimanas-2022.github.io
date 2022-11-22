@@ -107,7 +107,7 @@
 		"id":"cinbasualdo",
 		"nombre":"Cinthia Basualdo",
 		"titulo_obra":"Fragmentos",
-		"titulo_tesina":"La realidad aumentada y su relación con el entorno",
+		"titulo_tesina":"Espejo Virtual: La influencia de las redes sociales en adolescentes para la construcción de la identidad",
 		"descripcion_obra":"\"Fragmentos\" es una instalación interactiva que refleja cómo las identidades pueden fragmentarse según las herramientas de los dispositivos que actúan de mediadores para la representación y cómo éstas construyen y determinan la identidad social. <br>Está conformada por un tótem que contiene un lector de huella digital mediante el cual los usuarios pueden registrarse y obtener un ticket QR de su identidad. <br>Por otro lado, la obra se compone de un panel general subdividido en nueve partes con espejos en el centro de cada una de ellas. Los usuarios pueden interactuar con dicho panel por medio de un lector QR que el panel trae incorporado, el cual traduce la identidad de las personas en una matriz de colores que se muestra a través de iluminación led. <br>La suma de las interacciones genera una secuencia de todas las identidades que se fueron registrando en dicho panel, visualizándose de este modo la identidad social del grupo.",
 		"categoria":"arte visual",
 		"foto_perfil":"./data/cinbasualdo/perfil.png",
@@ -368,7 +368,7 @@
 		"nombre":"Micaela Conte",
 		"titulo_obra":"Sin título",
 		"titulo_tesina":"La transmutación del acto fotográfico a lo largo del tiempo",
-		"descripcion_obra":"Es una obra de acoso callejero que consta de una cajonera antigua interactiva conformada por seis cajones. <br> Existen tres formas de interactuar con la misma. Por un lado, cuatro cajones ejecutan una respuesta sonora. En cada uno de ellos al abrirlos se escucha un testimonio que cuenta una situación de acoso callejero. A cada cajón le corresponden varios audios, es decir, no siempre se reproduce el mismo al abrirlos. Estos cajones a la vez contienen en su interior algunos testimonios escritos a mano en papel. <br> Los otros dos cajones contienen dentro hojas y lapicera. La idea es generar el espacio para que las personas que interactúan con la obra puedan contar alguna situación de acoso callejero. <br> El objetivo de mi proyecto final de carrera es visibilizar, concientizar y sensibilizar acerca de esta problemática social. ",
+		"descripcion_obra":" \"Sin título\" Es una obra de acoso callejero que consta de una cajonera antigua interactiva conformada por seis cajones. <br> Existen tres formas de interactuar con la misma. Por un lado, cuatro cajones ejecutan una respuesta sonora. En cada uno de ellos al abrirlos se escucha un testimonio que cuenta una situación de acoso callejero. A cada cajón le corresponden varios audios, es decir, no siempre se reproduce el mismo al abrirlos. Estos cajones a la vez contienen en su interior algunos testimonios escritos a mano en papel. <br> Los otros dos cajones contienen dentro hojas y lapicera. La idea es generar el espacio para que las personas que interactúan con la obra puedan contar alguna situación de acoso callejero. <br> El objetivo de mi proyecto final de carrera es visibilizar, concientizar y sensibilizar acerca de esta problemática social. ",
 		"categoria":"arte electrónico",
 		"foto_perfil":"./data/micaelaconte/perfil.png",
 		"foto_portada":"./data/micaelaconte/portada.png",
@@ -596,7 +596,138 @@
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
 		"pdf":"./data/fernandobava/investigacion.pdf"
+	},
+	{
+		"id":"alanañon",
+		"nombre":"Alan Añon",
+		"titulo_obra":"",
+		"titulo_tesina":"",
+		"descripcion_obra":"",
+		"categoria":"arte electrónico",
+		"foto_perfil":"./data/alanañon/perfil.png",
+		"foto_portada":"./data/alanañon/portada.png",
+		"fotos_obra":[
+			{
+				"alt":"",
+				"src":"./data/alanañon/img_obra_1.png"
+			},
+			{
+				"alt":"",
+				"src":"./data/alanañon/img_obra_2.png"
+			},
+			{
+				"alt":"",
+				"src":"./data/alanañon/img_obra_3.png"
+			}
+		],
+		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"pdf":"./data/alanañon/investigacion.pdf"
+	},
+	{
+		"id":"gregoriomaldonado",
+		"nombre":"Gregorio Maldonado",
+		"titulo_obra":"",
+		"titulo_tesina":"",
+		"descripcion_obra":"",
+		"categoria":"arte electrónico",
+		"foto_perfil":"./data/gregoriomaldonado/perfil.png",
+		"foto_portada":"./data/gregoriomaldonado/portada.png",
+		"fotos_obra":[
+			{
+				"alt":"",
+				"src":"./data/gregoriomaldonado/img_obra_1.png"
+			},
+			{
+				"alt":"",
+				"src":"./data/gregoriomaldonado/img_obra_2.png"
+			},
+			{
+				"alt":"",
+				"src":"./data/gregoriomaldonado/img_obra_3.png"
+			}
+		],
+		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"pdf":"./data/gregoriomaldonado/investigacion.pdf"
+	},
+	{
+		"id":"alvarojuanterracciano",
+		"nombre":"Alvaro Juan Terracciano",
+		"titulo_obra":"T.I.T.O",
+		"titulo_tesina":"0b50l370: Luchar, desobedecer y preservar",
+		"descripcion_obra":"\"T.I.T.O\" es un videojuego arcade de disparos, con perspectiva top-down, en el cual el ritmo del juego está dictado por el audio y video que se le ingresan al sistema. En este controlamos a un robot al cual solo le queda un minuto de vida antes de obsolescer, por ende, tiene que eliminar a los robots enemigos, utilizar sus partes para autorepararse y sobrevivir la mayor cantidad de tiempo posible. <br>Dentro de las influencias se encuentran: la cultura retro-hacktivista nacional; NAVE de Videogamo, el gran exponente del arcade nacional y el documental \"Videojuegos sobre ruedas\" de TECTV, en donde un grupo de artistas y programadores, viajan por el pais con distintos arcades nacionales, acercando el medio a quienes no lo conocen. La jugabilidad y mecanicas del juego, están inspiradas por el juego Zombies Ate My Neighbors de la SNES y por el The Binding of Isaac: Repentance.<br>El juego está desarrollado con Unity junto a TouchDesigner para el análisis de audio y video. Al ser un arcade tradicional tambien cuenta con un mueble de grandes dimensiones, controles clásicos y una marquesina retroiluminada.",
+		"categoria":"videojuegos",
+		"foto_perfil":"./data/alvarojuanterracciano/perfil.png",
+		"foto_portada":"./data/alvarojuanterracciano/portada.png",
+		"fotos_obra":[
+			{
+				"alt":"",
+				"src":"./data/alvarojuanterracciano/img_obra_1.png"
+			},
+			{
+				"alt":"",
+				"src":"./data/alvarojuanterracciano/img_obra_2.png"
+			},
+			{
+				"alt":"",
+				"src":"./data/alvarojuanterracciano/img_obra_3.png"
+			}
+		],
+		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"pdf":"./data/alvarojuanterracciano/investigacion.pdf"
+	},
+	{
+		"id":"juancruzverna",
+		"nombre":"juan Cruz Verna",
+		"titulo_obra":"",
+		"titulo_tesina":"",
+		"descripcion_obra":"",
+		"categoria":"videojuegos",
+		"foto_perfil":"./data/juancruzverna/perfil.png",
+		"foto_portada":"./data/juancruzverna/portada.png",
+		"fotos_obra":[
+			{
+				"alt":"",
+				"src":"./data/juancruzverna/img_obra_1.png"
+			},
+			{
+				"alt":"",
+				"src":"./data/juancruzverna/img_obra_2.png"
+			},
+			{
+				"alt":"",
+				"src":"./data/juancruzverna/img_obra_3.png"
+			}
+		],
+		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"pdf":"./data/juancruzverna/investigacion.pdf"
+	},
+	{
+		"id":"juanposik",
+		"nombre":"Juan Posik",
+		"titulo_obra":"",
+		"titulo_tesina":"",
+		"descripcion_obra":"",
+		"categoria":"videojuegos",
+		"foto_perfil":"./data/juanposik/perfil.png",
+		"foto_portada":"./data/juanposik/portada.png",
+		"fotos_obra":[
+			{
+				"alt":"",
+				"src":"./data/juanposik/img_obra_1.png"
+			},
+			{
+				"alt":"",
+				"src":"./data/juanposik/img_obra_2.png"
+			},
+			{
+				"alt":"",
+				"src":"./data/juanposik/img_obra_3.png"
+			}
+		],
+		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"pdf":"./data/juanposik/investigacion.pdf"
 	}
+	
 
 ]
 }
