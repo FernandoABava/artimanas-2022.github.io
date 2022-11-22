@@ -15,7 +15,7 @@ div, section {
 }
 
 h1 { font-size: 2rem; }
-h2 { font-size: 2rem; }
+h2 { font-size: 2rem; margin: .83em auto}
 
 @media screen and (min-width: 1200px){
 	#body { font-size: 16px; }
@@ -233,20 +233,58 @@ h2 { font-size: 2rem; }
 **********************/
 
 .proxima-obra {
-	padding: 177px 0;
+	padding: 80px 0;
+}
+
+.proxima-obra .container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20%;
+}
+
+.proxima-obra h2 {
+	flex: 100%;
+	align-self: baseline;
+	/* float: left; */
+	/* margin-right: 0; */
 }
 
 .proxima-obra a {
+	flex: 100%;
 	float: right;
+	margin-top: 4em;
 }
 
 #card-prox-obra {
-	margin: 4.8em;
+	/* margin: 1em; */
+	/* flex: 100%; */
+	float: right;
+	position: relative;
+	top: 1rem;
+	width: 100%;
+}
+
+#card-prox-obra .card.chroma-container {
+	width: 100%;
+	max-width: 384px;
 }
 
 @media screen and (min-width: 1200px){
 	.proxima-obra a {
 		float: left;
-		margin-top: 300px;
+		margin-top: 0;
+	}
+	.proxima-obra {
+		padding: 177px 0;
+	}
+
+	#card-prox-obra {
+		flex:40%;
+		float: right;
+	}
+
+	.proxima-obra h2 {
+		margin: 0;
+		flex:40%;
 	}
 }
