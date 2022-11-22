@@ -744,10 +744,22 @@ footer img {
 }
 
 footer{
-	margin-top: 64px;
+	margin-top: 96px;
 	margin-bottom: 48px;
 }
 
 .footer i{
-	font-size: 24px;
+	font-size: 32px;
+}
+
+.footer-notita p{
+	color: #070707;
+	text-align: center;
+	text-justify:auto;
+	margin-top: 5%;
+	font-size: 14px;
+}
+.footer-notita i{
+	color: #070707;
+	font-size: 12px;
 }
