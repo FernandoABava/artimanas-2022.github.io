@@ -726,8 +726,21 @@ html{
 }
 
 footer img {
-	height: 81px;
-	width: auto;
+	height: auto;
+}
+
+#logo-fda {
+	margin-top: 16px;
+	margin-bottom: 16px;
+	width: 400px;
+}
+
+#logo-depto{
+	width: 200px;
+}
+
+#logo-unlp{
+	width: 200px;
 }
 
 footer{
