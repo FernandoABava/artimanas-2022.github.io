@@ -61,9 +61,12 @@ async function populate() {
 		img.alt = imagen.alt
 
 		fotos_obra.appendChild(img)
-		if(imagenes.length < parrafos.length) return
-		img.classList.add('mobile')
-		descripcionEl.appendChild(img)
+
+		if(i < parrafos.length) return
+
+		let newImg = img.cloneNode();
+		newImg.classList.add('mobile')
+		descripcionEl.appendChild(newImg)
 	});
 
 

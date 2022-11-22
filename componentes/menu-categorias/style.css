@@ -29,7 +29,7 @@
 	height: 20vh;
 }
 .categorias {
-	height: 100vh;
+	height: 85vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -40,7 +40,7 @@
 
 	position: sticky;
 	align-self: flex-start;
-	top:16px;
+	top:64px;
 	/* bottom:-32px; */
 
 	color: #070707;

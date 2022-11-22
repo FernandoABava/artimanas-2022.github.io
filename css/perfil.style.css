@@ -71,9 +71,9 @@ h2 { font-size: 2rem; }
 }
 
 .logo-a{
-	position: fixed; 
-	padding-left: 7%; 
-	padding-top: 5%; 
+	position: fixed;
+	padding-left: 7%;
+	padding-top: 5%;
 	mix-blend-mode: difference;
 }
 
@@ -160,7 +160,7 @@ h2 { font-size: 2rem; }
 	margin-bottom: 32px;
 }
 
-.col {
+.f-col {
 	width: 100%;
 }
 
@@ -175,7 +175,7 @@ h2 { font-size: 2rem; }
 		gap: 20%;
 	}
 
-	.col.sticky {
+	.f-col.sticky {
 		position: -webkit-sticky; /* for Safari */
 		position: sticky;
 		align-self: flex-start;
@@ -220,7 +220,7 @@ h2 { font-size: 2rem; }
 }
 
 @media screen and (min-width: 1200px){
-	.investigacion .col {
+	.investigacion .f-col {
 		width: 40%;
 	}
 

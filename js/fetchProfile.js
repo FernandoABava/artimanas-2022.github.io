@@ -27,17 +27,18 @@ async function fetchProfileList() {
 function sortCategoria(json) {
 	return json.perfiles.sort((a, b) => {
 		let result;
-		switch (a.categoria.toLowerCase()) {
+		console.log(a.categoria.toLowerCase());
+		switch (a.categoria.toLowerCase().trim()) {
 			case 'arte electrónico':
 				result = -1;
 				break;
 			default:
 			case 'realidad aumentada':
-				result = b.categoria.toLowerCase == 'arte electrónico' ? 1 : -1;
+				result = b.categoria.toLowerCase().trim() == 'arte electrónico' ? 1 : -1;
 				break;
 			case 'arte visual':
-				result = b.categoria.toLowerCase == 'arte electrónico'
-				 		|| b.categoria.toLowerCase == 'realidad aumentada'
+				result = b.categoria.toLowerCase().trim() == 'arte electrónico'
+				 		|| b.categoria.toLowerCase().trim() == 'realidad aumentada'
 						? 1 : -1;
 				break;
 			case 'videojuegos':

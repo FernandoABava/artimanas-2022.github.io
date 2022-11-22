@@ -13,8 +13,16 @@ init();
 
 async function init(event) {
 	// insertHeaderAndFooter();
-	target.scrollIntoView();
+	await appendCardsObras();
 
+	initStepper();
+
+	scrollIfEnObras();
+
+	setCounterFill();
+}
+
+async function appendCardsObras() {
 	const cardTemplate = await fetchTemplate('./componentes/card-obra/card-obra.html')
 
 	const profileList = await fetchProfileList();
@@ -39,10 +47,9 @@ async function init(event) {
 
 		listEl.append(divEl)
 	});
-
-	setCounterFill()
-	initStepper();
 }
 
-
-
+function scrollIfEnObras() {
+	const url = new URL(window.location)
+	if(url.hash == '#seccion-obras') target.scrollIntoView();
+}
