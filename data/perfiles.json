@@ -705,24 +705,24 @@
 	{
 		"id":"juanposik",
 		"nombre":"Juan Posik",
-		"titulo_obra":"",
-		"titulo_tesina":"",
-		"descripcion_obra":"",
-		"categoria":"videojuegos",
+		"titulo_obra":"Vincent",
+		"titulo_tesina":"Infoxicación: diagnostico de una patología moderna.",
+		"descripcion_obra":"Vincent es una obra de arte electrónico, se trata de un robot con forma humanoide capaz de realizar movimientos oculares complejos y reproducir voces con tonos distorsionados. La obra tiene como objetivo mostrar los efectos de la infoxicación en el sujeto.<br>Su nombre se encuentra inspirado en el pintor impresionista Vincent Van Gogh, puesto que este se amputó una oreja durante uno de sus ataques en los que perdía la conciencia.<br>Vincent el robot cuenta con una sola oreja del lado derecho, en la que se encuentra un sensor infrarrojo así como también un micrófono. Ante la presencia de una persona Vincent es capaz de escuchar y grabar mensajes de voz, estos se guardan en su memoria inmediata (RAM) para ser reproducidos posteriormente.<br>Los mensajes se reproducen en intervalos random de entre 15 segundos y 1 minuto, con filtros low pass, delay y reverb dando a estos un efecto robótico.<br>",
+		"categoria":"arte electrónico",
 		"foto_perfil":"./data/juanposik/perfil.png",
 		"foto_portada":"./data/juanposik/portada.png",
 		"fotos_obra":[
 			{
-				"alt":"",
-				"src":"./data/juanposik/img_obra_1.png"
+				"alt":"Mecanismo de ojos y parpados móviles.",
+				"src":"./data/juanposik/img_obra_1.jpg"
 			},
 			{
-				"alt":"",
-				"src":"./data/juanposik/img_obra_2.png"
+				"alt":"Mascara de robot con forma humana y ojos planos.",
+				"src":"./data/juanposik/img_obra_2.jpg"
 			},
 			{
-				"alt":"",
-				"src":"./data/juanposik/img_obra_3.png"
+				"alt":"Robot con ojos humanos.",
+				"src":"./data/juanposik/img_obra_3.jpg"
 			}
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/QYN3LU6jN8U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
