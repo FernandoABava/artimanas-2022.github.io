@@ -361,7 +361,7 @@
 				"src":"./data/lautarocostaromero/img_obra_3.jpg"
 			}
 		],
-		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/yWY0u7VtVew\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/bMVfxU8G7cM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
 		"pdf":"./data/lautarocostaromero/investigacion.pdf"
 	},
 	{
@@ -679,24 +679,24 @@
 	{
 		"id":"juancruzverna",
 		"nombre":"juan Cruz Verna",
-		"titulo_obra":"",
-		"titulo_tesina":"",
-		"descripcion_obra":"",
-		"categoria":"videojuegos",
+		"titulo_obra":"Continuidad Coral",
+		"titulo_tesina":"Consideraciones del 'crear' en un mundo fragmentado: Inteligencia artificial, orden digital y extractivismo socioambiental.",
+		"descripcion_obra":"Atravesamos una época en la que el mundo se encuentra profundamente dañado. Los horizontes que se visualizan, oscilan entre el alarmismo del caos inminente y el refugio obstinado en una solución tecnológica.  Sería bueno pensar en nuestra tarea de aportar continuidad y disminuir la pesada carga en las futuras generaciones. <br>Bajo esta premisa, decidí crear una instalación de videomapping interactivo como un acto de concientización y reparación simbólica. Continuidad coral es una escultura conformada por materiales reciclados; tierra y plantas; piezas orgánicas tejidas al crochet  y la ilusión óptica de imágenes digitales proyectadas sobre la superficie interna de la obra. <br>La persona usuaria, a través de un conector que puede acoplarse a distintos receptores, irá develando al azar los correspondientes estados del videomapping. En este sentido, la obra busca involucrar al interactuante en la responsabilidad de tomar un rol activo por su propio mundo circundante y en la injerencia que tiene sobre el del resto de seres vivos.",
+		"categoria":"arte visual",
 		"foto_perfil":"./data/juancruzverna/perfil.png",
 		"foto_portada":"./data/juancruzverna/portada.png",
 		"fotos_obra":[
 			{
-				"alt":"",
-				"src":"./data/juancruzverna/img_obra_1.png"
+				"alt":"Simulación de fluidos para videomapping.",
+				"src":"./data/juancruzverna/img_obra_1.jpg"
 			},
 			{
-				"alt":"",
-				"src":"./data/juancruzverna/img_obra_2.png"
+				"alt":"Programación nodal con Touchdesigner.",
+				"src":"./data/juancruzverna/img_obra_2.jpg"
 			},
 			{
-				"alt":"",
-				"src":"./data/juancruzverna/img_obra_3.png"
+				"alt":"Coral en crochet hipérbolico.",
+				"src":"./data/juancruzverna/img_obra_3.jpg"
 			}
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/7L_qjhf8Lsw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
