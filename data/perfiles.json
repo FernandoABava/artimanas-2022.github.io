@@ -24,7 +24,7 @@
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/AbTC5a5uT1o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
 		"pdf":"./data/lauvaldez/investigacion.pdf"
-		
+
 	},
 	{
 		"id":"manuelmedina",
@@ -574,10 +574,10 @@
 	},
 	{
 		"id":"fernandobava",
-		"nombre":"Fernando Bava",
-		"titulo_obra":"",
-		"titulo_tesina":"",
-		"descripcion_obra":"",
+		"nombre":"Fernando Andrés Bava",
+		"titulo_obra":"Devociones.al",
+		"titulo_tesina":"Tecnología y Cultura",
+		"descripcion_obra":"\"Devociones.al\" es una obra que juega con nuestros anhelos y deseos en la época tecnológica. A un metro y medio del suelo se alza un altar a esa fuerza omnipresente, omnipotente y misteriosa que todo lo da y todo lo quita: el algoritmo.<br>Una caja negra, un botón rojo, un totem rectangular que responde a las relaciones de aspecto de las diferentes pantallas. Eso es lo que, a priori, el usuario descubre. Mas, al interactuar, la caja negra se desvirtúa: aquello que parecía sólido, es flexible, es orgánico y, en algún punto, sugerente.<br>La obra es una reflexión acerca de la devoción con la que tratamos a las nuevas tecnologías, y la forma en la que éstas se aprovechan de nuestra atención para su propia satisfacción. Presionar un botón es un sustituto del scroll automático en redes sociales, y el movimiento de la caja es la recompensa inmediata que nos ofrecen. Sin pantallas, internet, smartphones o computadoras, la obra logra evocar las formas en las que nos relacionamos con aquello que llamamos \"el algoritmo\", permitiendo que el intereactuante redescubra las dinámicas detrás de nuestra devoción.",
 		"categoria":"arte electrónico",
 		"foto_perfil":"./data/fernandobava/perfil.png",
 		"foto_portada":"./data/fernandobava/portada.png",
@@ -595,7 +595,7 @@
 				"src":"./data/fernandobava/img_obra_3.png"
 			}
 		],
-		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"video":"<iframe width=\"100%\" src=\"https://www.youtube.com/embed/KA5Ntt5zTCM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
 		"pdf":"./data/fernandobava/investigacion.pdf"
 	},
 	{
@@ -728,7 +728,7 @@
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/QYN3LU6jN8U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
 		"pdf":"./data/juanposik/investigacion.pdf"
 	}
-	
+
 
 ]
 }
