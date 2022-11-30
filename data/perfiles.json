@@ -128,7 +128,7 @@
 			}
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/fdKYLJU9e58\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"pdf":"./data/cinbasualdo/investigacion.pdf"
+		"pdf":"./data/cinbasualdo/Tesina_BasualdoCinthia_TDMMV_2022.pdf"
 	},
 	{
 		"id":"tomasconstantini",
@@ -362,7 +362,7 @@
 			}
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/bMVfxU8G7cM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"pdf":"./data/lautarocostaromero/investigacion.pdf"
+		"pdf":"./data/lautarocostaromero/CostaRomero_Lautaro_Taller5_Tesis.pdf"
 	},
 	{
 		"id":"micaelaconte",
@@ -577,7 +577,7 @@
 		"nombre":"Fernando Andrés Bava",
 		"titulo_obra":"Devociones.al",
 		"titulo_tesina":"Tecnología y Cultura",
-		"descripcion_obra":"\"Devociones.al\" es una obra que juega con nuestros anhelos y deseos en la época tecnológica. A un metro y medio del suelo se alza un altar a esa fuerza omnipresente, omnipotente y misteriosa que todo lo da y todo lo quita: el algoritmo.<br>Una caja negra, un botón rojo, un totem rectangular que responde a las relaciones de aspecto de las diferentes pantallas. Eso es lo que, a priori, el usuario descubre. Mas, al interactuar, la caja negra se desvirtúa: aquello que parecía sólido, es flexible, es orgánico y, en algún punto, sugerente.<br>La obra es una reflexión acerca de la devoción con la que tratamos a las nuevas tecnologías, y la forma en la que éstas se aprovechan de nuestra atención para su propia satisfacción. Presionar un botón es un sustituto del scroll automático en redes sociales, y el movimiento de la caja es la recompensa inmediata que nos ofrecen. Sin pantallas, internet, smartphones o computadoras, la obra logra evocar las formas en las que nos relacionamos con aquello que llamamos \"el algoritmo\", permitiendo que el intereactuante redescubra las dinámicas detrás de nuestra devoción.",
+		"descripcion_obra":"\"Devociones.al\" es una obra que juega con nuestros anhelos y deseos en la época tecnológica. A un metro y medio del suelo se alza un altar a esa fuerza omnipresente, omnipotente y misteriosa que todo lo da y todo lo quita: el algoritmo.<br>Una caja negra, un botón rojo, un totem rectangular que responde a las relaciones de aspecto de las diferentes pantallas. Eso es lo que, a priori, el usuario descubre. Mas, al interactuar, la caja negra se desvirtúa: aquello que parecía sólido, es flexible, es orgánico y, en algún punto, sugerente.<br>La obra es una reflexión acerca de la devoción con la que tratamos a las nuevas tecnologías, y la forma en la que éstas se aprovechan de nuestra atención para su propia satisfacción. Presionar un botón sustituye el scroll automático en redes sociales, y el movimiento de la caja es la recompensa inmediata que nos ofrecen. Sin pantallas o internet, la obra evoca las formas en las que nos relacionamos con  \"el algoritmo\", permitiendo que el intereactuante redescubra las dinámicas detrás de nuestra devoción.",
 		"categoria":"arte electrónico",
 		"foto_perfil":"./data/fernandobava/perfil.png",
 		"foto_portada":"./data/fernandobava/portada.png",
@@ -596,7 +596,7 @@
 			}
 		],
 		"video":"<iframe width=\"100%\" src=\"https://www.youtube.com/embed/KA5Ntt5zTCM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"pdf":"./data/fernandobava/investigacion.pdf"
+		"pdf":"./data/fernandobava/Tecnología y Cultura - Fernando A. Bava.pdf"
 	},
 	{
 		"id":"alanañon",
@@ -726,7 +726,7 @@
 			}
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/QYN3LU6jN8U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"pdf":"./data/juanposik/investigacion.pdf"
+		"pdf":"./data/juanposik/Posik Sanchez, Juan Ignacio - Tesina de Grado.pdf"
 	}
 
 
