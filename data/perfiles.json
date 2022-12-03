@@ -631,7 +631,7 @@
 	{
 		"id":"gregoriomaldonado",
 		"nombre":"Gregorio Maldonado",
-		"titulo_obra":"",
+		"titulo_obra":"Ecos",
 		"titulo_tesina":"",
 		"descripcion_obra":"",
 		"categoria":"arte electrónico",
@@ -651,7 +651,7 @@
 				"src":"./data/gregoriomaldonado/img_obra_3.png"
 			}
 		],
-		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"video":"<iframe width=\"100%\" src=\"https://www.youtube.com/embed/D53qIT9CRic\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
 		"pdf":"./data/gregoriomaldonado/investigacion.pdf"
 	},
 	{
