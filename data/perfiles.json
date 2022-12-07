@@ -336,7 +336,7 @@
 			}
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/P3nESsfjpjY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"pdf":"./data/fiorelavillanueva/investigacion.pdf"
+		"pdf":"./data/fiorelavillanueva/La animación como herramienta privilegiada de las épocas para comunicar - Fiorela Villanueva.pdf"
 	},
 	{
 		"id":"lautarocostaromero",
@@ -632,27 +632,27 @@
 		"id":"gregoriomaldonado",
 		"nombre":"Gregorio Maldonado",
 		"titulo_obra":"Ecos",
-		"titulo_tesina":"",
-		"descripcion_obra":"",
-		"categoria":"arte electrónico",
+		"titulo_tesina":"La interacción entre lo físico y lo virtual: Dos espacios que se retroalimentan.",
+		"descripcion_obra":"\"Ecos\" es un dispositivo capaz de capturar mediante dos entradas diferentes (cámara uno, cámara dos). Estas dos imágenes de entrada se distribuyen en una grilla (grilla uno y grilla dos) y a cada instancia de esta grilla se le aplica un valor de delay diferente. Este proceso genera un tiempo diferente en cada imagen. <br>Luego de este proceso se genera una máscara a partir de la captura número uno donde la grilla adopta la silueta del cuerpo y se compone por encima de la grilla número dos. Esto genera un paisaje visual complejo que se modifica en función del movimiento del cuerpo. <br>La obra parte de la idea de dos asuntos enfrentados, los cuales son capaces de transformarse y reconfigurarse a partir del diálogo que se puede dar entre sus reflejos.",
+		"categoria":"arte visual",
 		"foto_perfil":"./data/gregoriomaldonado/perfil.png",
 		"foto_portada":"./data/gregoriomaldonado/portada.png",
 		"fotos_obra":[
 			{
-				"alt":"",
+				"alt":"Proceso de captura y distribución sobre la grilla",
 				"src":"./data/gregoriomaldonado/img_obra_1.png"
 			},
 			{
-				"alt":"",
+				"alt":"Proceso de solapamiento de las grillas",
 				"src":"./data/gregoriomaldonado/img_obra_2.png"
 			},
 			{
-				"alt":"",
+				"alt":"Captura de la obra en funcionamiento",
 				"src":"./data/gregoriomaldonado/img_obra_3.png"
 			}
 		],
 		"video":"<iframe width=\"100%\" src=\"https://www.youtube.com/embed/D53qIT9CRic\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"pdf":"./data/gregoriomaldonado/investigacion.pdf"
+		"pdf":"./data/gregoriomaldonado/Escrito Tesina Maldonado Gregorio.pdf"
 	},
 	{
 		"id":"alvarojuanterracciano",
