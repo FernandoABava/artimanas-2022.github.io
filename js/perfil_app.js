@@ -77,7 +77,10 @@ async function populate() {
 	// FIN DESCRIPCION
 
 	tituloTesinaEl.innerText = profileData.titulo_tesina
-	link_pdf.href = profileData.pdf
+	if(profileData.pdf.includes('investigacion.pdf'))
+		document.querySelector('.chroma-container').style.display = 'none'
+	else
+		link_pdf.href = profileData.pdf
 }
 
 async function appendRandomObra() {
