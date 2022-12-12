@@ -23,7 +23,7 @@
 			}
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/AbTC5a5uT1o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"pdf":"./data/lauvaldez/investigacion.pdf"
+		"pdf":"./data/lauvaldez/Tesina_Valdez_Avila_Juan_Lautaro.pdf"
 
 	},
 	{
@@ -50,7 +50,7 @@
 			}
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/tBY3Vvf83i4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"pdf":"./data/manuelmedina/investigacion.pdf"
+		"pdf":"./data/manuelmedina/Medina Manuel.pdf"
 	},
 	{
 		"id":"marcialgutierrez",
@@ -76,7 +76,7 @@
 			}
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/nMx3nGJH6_c\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"pdf":"./data/marcialgutierrez/investigacion.pdf"
+		"pdf":"./data/marcialgutierrez/Gutierrez Marcial.pdf"
 	},
 	{
 		"id":"tomasgarceron",
@@ -206,7 +206,7 @@
 			}
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/21KMSXJ2_T4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"pdf":"./data/simonloyber/investigacion.pdf"
+		"pdf":"./data/simonloyber/Loyber Simon.pdf"
 	},
 	{
 		"id":"andrespablo",
@@ -258,7 +258,7 @@
 			}
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/AXKvLX7bZuA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"pdf":"./data/barbaralanchas/investigacion.pdf"
+		"pdf":"./data/barbaralanchas/Lanchas Barbara.pdf"
 	},
 	{
 		"id":"matiasrichter",
@@ -284,7 +284,7 @@
 			}
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/k8ULPXwu1ho\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"pdf":"./data/matiasrichter/investigacion.pdf"
+		"pdf":"./data/matiasrichter/Richter Ignacio.pdf"
 	},
 	{
 		"id":"laurabarrios",
@@ -388,7 +388,7 @@
 			}
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/vcp_dEGw1rI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"pdf":"./data/micaelaconte/investigacion.pdf"
+		"pdf":"./data/micaelaconte/Conte Micaela.pdf"
 	},
 	{
 		"id":"angelamigone",
@@ -414,7 +414,7 @@
 			}
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/Odpox4J9X1U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"pdf":"./data/angelamigone/investigacion.pdf"
+		"pdf":"./data/angelamigone/Migone Angela.pdf"
 	},
 	{
 		"id":"dannaalvarez",
@@ -440,7 +440,7 @@
 			}
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/7uqZy6jyrOM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"pdf":"./data/dannaalvarez/investigacion.pdf"
+		"pdf":"./data/dannaalvarez/Castillo Alvarez Danna.pdf"
 	},
 	{
 		"id":"martinagomez",
@@ -574,7 +574,7 @@
 			}
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/FIHnMS3T4_4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"pdf":"./data/valentinazeltner/investigacion.pdf"
+		"pdf":"./data/valentinazeltner/Zeltner Valentina.pdf"
 	},
 	{
 		"id":"fernandobava",
@@ -678,7 +678,7 @@
 			}
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/HR1neJ6xkD8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"pdf":"./data/alvarojuanterracciano/investigacion.pdf"
+		"pdf":"./data/alvarojuanterracciano/Terracciano Alvaro.pdf"
 	},
 	{
 		"id":"juancruzverna",
