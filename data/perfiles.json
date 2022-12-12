@@ -450,15 +450,15 @@
 		"descripcion_obra":"\"En diálogo\" es una obra mecánica que busca indagar en algunas cuestiones respecto a la interacción en las obras de arte y al encuentro del público con obras analógicas, mientras fluctúa entre lo nuevo y la historia del arte.<br>La obra consta de un marco ubicado en una pared que cuenta con distintos mecanismos con engranajes, donde a través de roscas manuales, las personas usuarias pueden seleccionar determinados elementos para conformar una obra propia, con obras de artistas como Magritte o Van Gogh. Seleccionando un personaje, un fondo y elementos adicionales van a poder armar un cuadro a medida.<br>A primera mirada, la obra parece un cuadro emplazado en una pared de museo que se dispone a ser contemplado, tal como las obras de Magritte o Van Gogh. Pero al acercanos, la obra propone ser modificada, alterando aquello que vimos por primera vez. Permitiendo dejarla como estaba o modificada, para que quien vuelva a encontrarse con la obra reviva este proceso.",
 		"categoria":"arte visual",
 		"foto_perfil":"./data/martinagomez/perfil.png",
-		"foto_portada":"./data/martinagomez/portada.jpg",
+		"foto_portada":"./data/martinagomez/portada.png",
 		"fotos_obra":[
 			{
 				"alt":"\"Mujer sentada\" de Picasso es uno de los personajes que pueden ser seleccionados.",
-				"src":"./data/martinagomez/img_obra_1.jpg"
+				"src":"./data/martinagomez/img_obra_1.png"
 			},
 			{
 				"alt":"Una mujer interactuando con \"El Grito\" de Munch",
-				"src":"./data/martinagomez/img_obra_2.jpg"
+				"src":"./data/martinagomez/img_obra_2.png"
 			},
 			{
 				"alt":"Mecanismo que permite que, girando la manivela, los usuarios giren el fondo.",
@@ -466,7 +466,7 @@
 			},
 			{
 				"alt":"Una persona sacándole una foto a la composición que armó",
-				"src":"./data/martinagomez/img_obra_4.jpg"
+				"src":"./data/martinagomez/img_obra_4.png"
 			}
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/JcOfOuayeuI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
