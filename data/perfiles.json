@@ -310,7 +310,7 @@
 			}
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/yWY0u7VtVew\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"pdf":"./data/laurabarrios/investigacion.pdf"
+		"pdf":"./data/laurabarrios/Tesina_BarriosButallo_Laura_T5_2022.pdf"
 	},
 	{
 		"id":"fiorelavillanueva",
@@ -470,7 +470,7 @@
 			}
 		],
 		"video":"<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/JcOfOuayeuI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"pdf":"./data/martinagomez/investigacion.pdf"
+		"pdf":"./data/martinagomez/Martina Gómez - _En diálogo..._.pdf"
 	},
 	{
 		"id":"martinbuzali",
